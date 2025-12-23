@@ -1,0 +1,231 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "careers": "Careers",
+    "teams": "Teams",
+    "contact": "Contact Us",
+    "languages": {
+      "english": "English",
+      "japanese": "Japanese"
+    }
+  },
+  "hero": {
+    "title": "Changing the Life of Humanity",
+    "subtitle": "One Step at a Time",
+    "button": "Join Us"
+  },
+  "portfolio": {
+    "header": "Building the future, One Project at a Time",
+    "skills": "HTML, CSS, JavaScript, AI, ML",
+    "description": "We offer a wide range of portfolio projects to help you achieve your business goals. From web development to intelligent systems, our team delivers exceptional results.",
+    "slide1": {
+      "title": "Machine Learning",
+      "stack": "TensorFlow, PyTorch, Scikit-Learn, Keras",
+      "description": "Our machine learning services will help you uncover hidden insights and make predictions about your customers' behavior. We can help you build a custom model, integrate it with your existing infrastructure, and deploy it in a production-ready environment."
+    },
+    "slide2": {
+      "title": "LaEntrega Co., Ltd",
+      "stack": "WordPress",
+      "description": "The company's representative director is Arita Kazuto. LA ENTREGA has a wide range of business activities, including import/export, consulting for market entry, e-commerce, advertising, restaurant operation, and international cultural exchange. The company also offers services for foreign tourists and provides management consulting. As of January 8, 2025, its head office is located in Chuo-ku, Fukuoka."
+    },
+    "slide3": {
+      "title": "Image, Video and Audio Annotation",
+      "stack": "Annotation",
+      "description": "Image, video and audio annotation services help you prepare data for machine learning and computer vision projects. Our team of experts annotates your data with high accuracy and speed."
+    },
+    "slide4": {
+      "title": "CAD Tracing",
+      "stack": "We offer a wide range of portfolio projects to help you achieve your business goals. From web development to intelligent systems, our team delivers exceptional results.",
+      "description": "We offer a wide range of portfolio projects to help you achieve your business goals. From web development to intelligent systems, our team delivers exceptional results."
+    }
+  },
+  "homeServices": {
+    "title": "Our Services",
+    "items": {
+      "0": "AI & ML Solutions",
+      "1": "CAD tracing",
+      "2": "Data Annotation",
+      "3": "Web Development",
+      "4": "Desktop Application",
+      "5": "OCR & Data Entry"
+    }
+  },
+  "industry": {
+    "heading": "INDUSTRY FOCUS",
+    "title": "Purpose-built, next-gen solutions grounded with deep industry expertise",
+    "description": "From artificial intelligence to mobile and web applications, we build cutting-edge solutions to solve real-world problems and drive innovation.",
+    "items": {
+      "ai": {
+        "title": "AI (Artificial Intelligence)",
+        "description": "Advanced AI-driven solutions to automate, analyze, and optimize business processes."
+      },
+      "it": {
+        "title": "IT Services",
+        "description": "Comprehensive IT services including infrastructure, support, and cybersecurity."
+      },
+      "iot": {
+        "title": "IoT (Internet of Things)",
+        "description": "Smart connected solutions for devices, homes, cities, and industries."
+      },
+      "desktop": {
+        "title": "Desktop App Development",
+        "description": "Robust desktop applications tailored for enterprise or individual needs."
+      },
+      "mobile": {
+        "title": "Mobile App Development",
+        "description": "Native and cross-platform mobile apps with seamless UI/UX."
+      },
+      "web": {
+        "title": "Web Development",
+        "description": "Scalable, responsive, and secure web solutions for businesses of all sizes."
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "tagline": "Empowering ideas through technology. We are a passionate team delivering innovative digital solutions.",
+    "whoWeAre": "Who We Are",
+    "p1": "Seinxera is a leading software company based in Nepal, committed to delivering top-notch digital products and services. We specialize in web development, mobile apps, Desktop App, Specialize in AI, IT, IOT and cloud-based solutions.",
+    "p2": "Our dedicated team works closely with clients to bring their ideas to life and provide scalable, secure, and modern technology solutions. It also focus on advanced technologies",
+    "contactCta": "Contact Us",
+    "missionTitle": "Our Mission",
+    "missionBody": "Our mission is to create products and services that don’t just serve — they transform. We aim to build solutions that impact lives, empower communities, and spark progress.\n\nBy developing innovative systems and embracing continuous innovation, we push boundaries and challenge the status quo. We believe in solving real problems with technology, creativity, and purpose — crafting tools that make a difference today and shape a better tomorrow.\n\nEvery challenge we take on is an opportunity to deliver lasting impact. Through our commitment to excellence, agility, and innovation, we strive to turn bold ideas into reality."
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Empowering your business with cutting-edge technology solutions.",
+    "cards": {
+      "ai_ml": {
+        "title": "AI/ML Solutions",
+        "description": "Custom AI and machine learning models, automation, and intelligent systems tailored to your business."
+      },
+      "cad": {
+        "title": "CAD Development",
+        "description": "High-precision CAD modeling, drafting, and design support for engineering and product development."
+      },
+      "data_annotation": {
+        "title": "Data Annotation",
+        "description": "Accurate data labeling for computer vision, NLP, and AI pipelines with rigorous quality control."
+      },
+      "web": {
+        "title": "Web Development",
+        "description": "Custom web applications and responsive websites using the latest technologies."
+      },
+      "mobile": {
+        "title": "Mobile App Development",
+        "description": "Cross-platform and native mobile app development tailored to your needs."
+      },
+      "cloud": {
+        "title": "Cloud Solutions",
+        "description": "Cloud migration, DevOps, and scalable cloud-native services."
+      },
+      "security": {
+        "title": "Cybersecurity",
+        "description": "Protect your digital assets with advanced security audits and tools."
+      },
+      "ai": {
+        "title": "AI & Automation",
+        "description": "Smart solutions with AI, ML, chatbots, and workflow automation."
+      },
+      "consulting": {
+        "title": "IT Consulting",
+        "description": "Expert advice and strategy for IT infrastructure, software, and operations."
+      },
+      "desktop": {
+        "title": "Desktop Development",
+        "description": "Robust, performant desktop applications for Windows, macOS, and Linux."
+      },
+      "ocr_data_entry": {
+        "title": "OCR and Data Entry",
+        "description": "Document digitization with OCR and reliable data entry services at scale."
+      }
+    }
+  },
+  "contact": {
+    "header": "We'd love to hear from you!",
+    "subtitle": "Please let us know what you are looking for and we will get in touch with you.",
+    "cooperate": "Co-operate With Us",
+    "address": "Hiledol, Kathmandu",
+    "labels": {
+      "fullName": "Full Name",
+      "title": "Title",
+      "email": "Business Email Address*",
+      "organization": "Organization*",
+      "phone": "Phone/Mobile"
+    },
+    "placeholders": {
+      "fullName": "Enter Your Name",
+      "title": "Enter Your Title",
+      "email": "Enter Your Email",
+      "organization": "Enter Your Organization",
+      "phone": "Enter Your Phone Number"
+    },
+    "policyConsent": "I have read Seinxera Solutions’s Privacy Policy and agree to the terms and conditions.",
+    "privacyPolicy": "Privacy Policy",
+    "submit": "Submit",
+    "toasts": {
+      "success": "✅ Message sent successfully!",
+      "error": "❌ Failed to send message!"
+    }
+  },
+  "teams": {
+    "title": "Our IT Team",
+    "subtitle": "At Seinxera, we are a leading IT company delivering cutting-edge solutions in software development, cloud services, and cybersecurity. Meet our talented team driving innovation!",
+    "roles": {
+      "frontend": "Frontend Developer",
+      "java": "Java Developer",
+      "pythonResearch": "Python Developer and Researcher"
+    }
+  },
+  "careers": {
+    "intro": {
+      "title": "Discover a career where your ideas matter, your growth is supported, and your work makes a difference.",
+      "cta": "Explore Jobs"
+    },
+    "card": {
+      "title": "Developer Intern",
+      "description": "We’re always looking for passionate, creative, and talented individuals to grow with us. If you're excited to work on meaningful projects, thrive in a collaborative environment, and want to shape the future—let’s talk."
+    },
+    "slides": {
+      "first": {
+        "title": "Internship Program",
+        "text": "Our internship program is designed for passionate learners who want to grow their skills, gain real-world experience, and explore career paths in a professional environment. Over the course of 3 months, interns will collaborate on real projects, receive mentorship, and develop hands-on expertise in their chosen field."
+      },
+      "second": {
+        "title": "Career Growth",
+        "text": "Every team member has a development plan with initiatives aimed at improving skills and embracing innovation. As we grow rapidly, our development plans stay adaptive and ensure our workforce stays best-in-class with ability, aspiration, and commitment."
+      }
+    },
+    "join": {
+      "ribbon": "Join Our Team",
+      "title": "Can't find your job? Don't worry!",
+      "text": "Our team will reach out to you when we have the opening.",
+      "submitCta": "Submit Your Resume"
+    }
+  },
+  "footer": {
+    "ctaTitle": "Take the first step towards a digitally engineered tomorrow",
+    "ctaButton": "Get In Touch",
+    "sections": {
+      "navigation": "NAVIGATION",
+      "whatWeDo": "WHAT WE DO",
+      "legal": "LEGAL"
+    },
+    "whatWeDo": {
+      "application": "Application Services",
+      "cloud": "Cloud & Infrastructure",
+      "cybersecurity": "Cybersecurity",
+      "data": "Data & Analytics",
+      "digitalEngineering": "Digital Engineering Services",
+      "automation": "Intelligent Automation",
+      "quality": "Quality Engineering"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Use"
+    },
+    "copyright": "© 2025 Seinxera IT Solutions. All Rights Reserved."
+  }
+}
