@@ -8,7 +8,7 @@
     "contact": "Contact Us",
     "languages": {
       "english": "English",
-      "japanese": "Japanese"
+      "japanese": "日本語"
     }
   },
   "hero": {
@@ -144,39 +144,59 @@
     }
   },
   "contact": {
-    "header": "We'd love to hear from you!",
-    "subtitle": "Please let us know what you are looking for and we will get in touch with you.",
-    "cooperate": "Co-operate With Us",
+    "header": "Get in Touch",
+    "subtitle": "Tell us what you're looking for. We'll get back to you.",
+    "cooperate": "Partner with Us",
     "address": "Hiledol, Kathmandu",
     "labels": {
       "fullName": "Full Name",
-      "title": "Title",
-      "email": "Business Email Address*",
-      "organization": "Organization*",
-      "phone": "Phone/Mobile"
+      "title": "Title/Position",
+      "email": "Business Email*",
+      "organization": "Organization (Required)",
+      "phone": "Phone/Mobile",
+      "company": "Company",
+      "subject": "Subject",
+      "message": "Message"
     },
     "placeholders": {
-      "fullName": "Enter Your Name",
-      "title": "Enter Your Title",
-      "email": "Enter Your Email",
-      "organization": "Enter Your Organization",
-      "phone": "Enter Your Phone Number"
+      "fullName": "Enter your name",
+      "title": "Enter your title/position",
+      "email": "Enter email address",
+      "organization": "Enter your organization",
+      "phone": "Enter phone number",
+      "company": "Your company (optional)",
+      "subject": "e.g., Project Inquiry",
+      "message": "Tell us about your project or inquiry..."
     },
-    "policyConsent": "I have read Seinxera Solutions’s Privacy Policy and agree to the terms and conditions.",
+    "policyConsent": "I have read and agree to Seinxera Solutions' Privacy Policy and Terms of Service.",
     "privacyPolicy": "Privacy Policy",
     "submit": "Submit",
+    "submitLoading": "Sending...",
     "toasts": {
       "success": "✅ Message sent successfully!",
-      "error": "❌ Failed to send message!"
+      "error": "❌ Failed to send message. Please try again."
     }
   },
   "teams": {
     "title": "Our IT Team",
     "subtitle": "At Seinxera, we are a leading IT company delivering cutting-edge solutions in software development, cloud services, and cybersecurity. Meet our talented team driving innovation!",
     "roles": {
-      "frontend": "Frontend Developer",
+      "webdev": "Web Developer",
       "java": "Java Developer",
+      "jmanager": "Junior Project Manager",
+      "jdev": "Junior Developer",
+      "wdev": "Software Developer Intern",
+      "UI": "UI/UX Designer Intern",
+      "ai": "AI/ML Intern",
       "pythonResearch": "Python Developer and Researcher"
+    },
+    "testimonials": {
+      "t1": "A proactive Junior Manager responsible for supervising development processes and coordinating across teams. Oversees project progress, supports team growth, and ensures that design, development, and execution align with organizational goals.",
+      "t2": "A detail-oriented Junior Developer who supports core development tasks across the application. Works closely with the team to implement features, fix bugs, and continuously improve system performance and reliability.",
+      "t3": "An AI/ML Developer experienced in designing and implementing intelligent chatbot solutions. Focuses on natural language processing, model integration, and delivering practical AI features that enhance user interaction and automation.",
+      "t4": "A motivated Web Developer Intern with a strong foundation in modern web technologies. Actively contributes to building responsive, user-friendly interfaces while learning best practices in frontend and backend development.",
+      "t5": "A creative UI/UX Designer Intern with a keen eye for visual design and usability. Assists in crafting intuitive layouts, wireframes, and design components that improve overall user experience.",
+      "t6": "A passionate UI/UX Designer Intern focused on user-centered design principles. Contributes to research, prototyping, and refining interfaces to ensure consistency, accessibility, and visual clarity."
     }
   },
   "careers": {

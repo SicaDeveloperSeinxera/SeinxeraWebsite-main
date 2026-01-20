@@ -21,7 +21,7 @@ const NavigationBar = () => {
   return (
     <nav className="bg-gray-800 shadow-lg sticky top-0 z-50">
       <div className="max-w-8xl mx-auto px-8 ">
-        <div className="flex justify-between items-center py-3">
+        <div className="flex justify-between items-center py-0">
           {/* Logo */}
           <div className="flex-shrink-0 ">
             <Link to="/">

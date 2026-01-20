@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-
 import Home from "./component/home/Home";
 import AboutPage from "./component/pages/AboutPage";
 import CareersPage from "./component/pages/CareersPage";
@@ -8,7 +7,6 @@ import ContactPage from "./component/pages/ContactPage";
 import ServicesPage from "./component/pages/ServicesPage";
 import TeamsPage from "./component/pages/TeamsPage";
 import NavigationBar from "./component/navbar/NavigationBar";
-
 import {useTranslation}  from "react-i18next";
 
 const App = () => {

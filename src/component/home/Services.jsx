@@ -28,7 +28,7 @@ const Services = () => {
           {serviceIds.map((id, index) => (
           <div
             key={index}
-            className="group relative rounded-lg shadow-md min-h-[200px] min-w-[200px] flex items-center justify-center overflow-hidden border border-gray-300 hover:shadow-lg transition-shadow duration-200 hover:scale-105 transform transition-transform ease-in-out"
+            className="group relative rounded-lg shadow-md min-h-[200px] min-w-[200px] flex items-center justify-center overflow-hidden border border-gray-300 hover:shadow-lg duration-200 hover:scale-105 transform transition-transform ease-in-out"
             style={{
               backgroundImage: `url(${webDevCode})`,
               backgroundSize: "cover",
