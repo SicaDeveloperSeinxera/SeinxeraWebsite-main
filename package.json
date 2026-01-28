@@ -1,5 +1,6 @@
 {
   "name": "seinxera",
+  "homepage": "https://08sienxera.github.io/SeinxeraWebsite-main/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,12 +8,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.11",
     "framer-motion": "^12.23.6",
+    "gh-pages": "^6.3.0",
     "i18next": "^25.3.2",
     "i18next-browser-languagedetector": "^8.2.0",
     "package.json": "^2.0.1",
