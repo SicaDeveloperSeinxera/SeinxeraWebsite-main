@@ -18,7 +18,7 @@ const Services = () => {
   const { t } = useTranslation();
   return (
     <div className="bg-gray-200 p-8 rounded-t-2xl min-h-[400px] h-full text-center flex flex-col md:flex-row align-items-center">
-      <div className="text-5xl font-semibold text-gray-800 px-1 py-16 mb-8 self-center sm:w-1/3">
+      <div className="text-4xl sm:text-5xl font-semibold text-gray-800 px-1 py-16 mb-8 self-center sm:w-1/3">
         {t('services.title')}
       </div>
       
