@@ -2,7 +2,6 @@ import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
 import firm from "../../assets/white-designed-background.jpg";
 import { useRef, useState } from "react";
-import Maps from "../address/Maps";
 import { useTranslation } from "react-i18next";
 import PageTransition from "../PageTransition";
 
@@ -17,8 +16,8 @@ const Contact = () => {
 
     emailjs
 
-      .sendForm("service_8hu24rg", "template_w9wugb7", form.current, {
-        publicKey: "e8fiYD4ifT77UAV-3",
+      .sendForm("service_mq32lg3", "template_jh0p8ef", form.current, {
+        publicKey: "WtIdNnFb53mDEL2Ua",
       })
 
       .then(
