@@ -1,6 +1,6 @@
 import { useState } from "react";
 import aiImage from "../../assets/ai.jpg";
-import itImage from "../../assets/it-services.jpg";
+import itImage from "../../assets/It-services.jpg";
 import iotImage from "../../assets/iot.jpg";
 import desktopImage from "../../assets/desktop-development.jpg";
 import mobileImage from "../../assets/mobile-development.jpg";
