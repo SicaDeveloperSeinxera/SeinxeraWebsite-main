@@ -89,7 +89,7 @@ const NavigationBar = () => {
                 onClick={() => setIsGlobalOpen(!isGlobalOpen)}
                 className="cursor-pointer"
               >
-                <img className="w-7 h-7" src={globalIcon} alt="Global Icon" />
+                <img className="w-7 h-7 mt-1" src={globalIcon} alt="Global Icon" />
               </button>
 
               {isGlobalOpen && (
@@ -112,7 +112,7 @@ const NavigationBar = () => {
           </div>
 
           {/* Mobile Hamburger */}
-          <div className="md:hidden text-white">
+          <div className="flex md:hidden text-white gap-3">
             <button onClick={toggleMenu}>
               {isOpen ? (
                 <IoMdClose size={24} />
@@ -120,29 +120,32 @@ const NavigationBar = () => {
                 <AiOutlineMenuFold size={28} />
               )}
             </button>
-            <button
-              onClick={() => setIsGlobalOpen(!isGlobalOpen)}
-              className="cursor-pointer ml-2"
-            >
-              <img className="w-7 h-7" src={globalIcon} alt="Global Icon" />
-            </button>
 
-            {isGlobalOpen && (
-              <div className="absolute top-18 right-0 bg-gray-600 p-4 rounded-md shadow-md">
-                <button
-                  onClick={() => changeLanguage("en")}
-                  className="block hover:text-blue-300 transition text-nowrap"
-                >
-                  {t("nav.languages.english")}
-                </button>
-                <button
-                  onClick={() => changeLanguage("ja")}
-                  className="block hover:text-blue-300 transition text-nowrap"
-                >
-                  {t("nav.languages.japanese")}
-                </button>
-              </div>
-            )}
+            <div ref={dropdownRef}>
+              <button
+                onClick={() => setIsGlobalOpen(!isGlobalOpen)}
+                className="cursor-pointer ml-2"
+              >
+                <img className="w-6 h-6 mt-1" src={globalIcon} alt="Global Icon" />
+              </button>
+
+              {isGlobalOpen && (
+                <div className="absolute top-18 right-0 bg-gray-600 p-4 rounded-md shadow-md">
+                  <button
+                    onClick={() => changeLanguage("en")}
+                    className="block hover:text-blue-300 transition text-nowrap"
+                  >
+                    {t("nav.languages.english")}
+                  </button>
+                  <button
+                    onClick={() => changeLanguage("ja")}
+                    className="block hover:text-blue-300 transition text-nowrap"
+                  >
+                    {t("nav.languages.japanese")}
+                  </button>
+                </div>
+              )}
+            </div>
           </div>
         </div>
 
@@ -195,7 +198,7 @@ const NavigationBar = () => {
           </div>
         )}
       </div>
-    </nav>
+    </nav >
   );
 };
 
