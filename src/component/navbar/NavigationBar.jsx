@@ -47,43 +47,56 @@ const NavigationBar = () => {
             </Link>
           </div>
 
-          {/* Desktop Links */}
-          <div className="hidden md:flex items-center justify-center gap-8 md:gap-6 text-white text-sm font-semibold">
-            <Link to="/" className="hover:text-blue-300 transition text-nowrap">
-              {t("nav.home")}
-            </Link>
-            <Link
-              to="/about"
-              className="hover:text-blue-300 transition text-nowrap"
-            >
-              {t("nav.about")}
-            </Link>
-            <Link
-              to="/service"
-              className="hover:text-blue-300 transition text-nowrap"
-            >
-              {t("nav.services")}
-            </Link>
-            <Link
-              to="/career"
-              className="hover:text-blue-300 transition text-nowrap"
-            >
-              {t("nav.careers")}
-            </Link>
-            <Link
-              to="/team"
-              className="hover:text-blue-300 transition text-nowrap"
-            >
-              {t("nav.teams")}
-            </Link>
-            <Link
-              to="/contact"
-              className="flex items-center gap-2 bg-white text-black text-md rounded-full px-1 py-2 hover:bg-gray-200 transition"
-            >
-              {t("nav.contact")}
-              <FaArrowRightFromBracket />
-            </Link>
+          <div className="flex gap-8 md:gap-6">
 
+            {/* Desktop Links */}
+            <div className="hidden md:flex items-center justify-center gap-8 md:gap-6 text-white text-sm font-semibold">
+              <Link to="/" className="hover:text-blue-300 transition text-nowrap">
+                {t("nav.home")}
+              </Link>
+              <Link
+                to="/about"
+                className="hover:text-blue-300 transition text-nowrap"
+              >
+                {t("nav.about")}
+              </Link>
+              <Link
+                to="/service"
+                className="hover:text-blue-300 transition text-nowrap"
+              >
+                {t("nav.services")}
+              </Link>
+              <Link
+                to="/career"
+                className="hover:text-blue-300 transition text-nowrap"
+              >
+                {t("nav.careers")}
+              </Link>
+              <Link
+                to="/team"
+                className="hover:text-blue-300 transition text-nowrap"
+              >
+                {t("nav.teams")}
+              </Link>
+              <Link
+                to="/contact"
+                className="flex items-center gap-2 bg-white text-black text-md rounded-full px-1 py-2 hover:bg-gray-200 transition"
+              >
+                {t("nav.contact")}
+                <FaArrowRightFromBracket />
+              </Link>
+            </div>
+
+            {/* Mobile Hamburger */}
+            <div className="flex md:hidden text-white gap-3">
+              <button onClick={toggleMenu}>
+                {isOpen ? (
+                  <IoMdClose size={24} />
+                ) : (
+                  <AiOutlineMenuFold size={28} />
+                )}
+              </button>
+            </div>
             <div ref={dropdownRef}>
               <button
                 onClick={() => setIsGlobalOpen(!isGlobalOpen)}
@@ -93,7 +106,7 @@ const NavigationBar = () => {
               </button>
 
               {isGlobalOpen && (
-                <div className="absolute top-18 right-0 bg-gray-600 p-4 rounded-md shadow-md z-50">
+                <div className="absolute top-18 right-0 bg-gray-600 p-4 rounded-md shadow-md z-50 text-white font-bold">
                   <button
                     onClick={() => changeLanguage("en")}
                     className="block hover:text-blue-300 transition text-nowrap"
@@ -103,43 +116,6 @@ const NavigationBar = () => {
                   <button
                     onClick={() => changeLanguage("ja")}
                     className="block hover:text-blue-300 mt-2 transition text-nowrap"
-                  >
-                    {t("nav.languages.japanese")}
-                  </button>
-                </div>
-              )}
-            </div>
-          </div>
-
-          {/* Mobile Hamburger */}
-          <div className="flex md:hidden text-white gap-3">
-            <button onClick={toggleMenu}>
-              {isOpen ? (
-                <IoMdClose size={24} />
-              ) : (
-                <AiOutlineMenuFold size={28} />
-              )}
-            </button>
-
-            <div ref={dropdownRef}>
-              <button
-                onClick={() => setIsGlobalOpen(!isGlobalOpen)}
-                className="cursor-pointer ml-2"
-              >
-                <img className="w-6 h-6 mt-1" src={globalIcon} alt="Global Icon" />
-              </button>
-
-              {isGlobalOpen && (
-                <div className="absolute top-18 right-0 bg-gray-600 p-4 rounded-md shadow-md">
-                  <button
-                    onClick={() => changeLanguage("en")}
-                    className="block hover:text-blue-300 transition text-nowrap"
-                  >
-                    {t("nav.languages.english")}
-                  </button>
-                  <button
-                    onClick={() => changeLanguage("ja")}
-                    className="block hover:text-blue-300 transition text-nowrap"
                   >
                     {t("nav.languages.japanese")}
                   </button>
