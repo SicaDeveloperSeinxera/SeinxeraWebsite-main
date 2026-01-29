@@ -10,7 +10,7 @@ import Portfolio from "./Portfolio";
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <div className="bg-blue-600"> 
+    <div> 
       {/* Hero Section */}
       <div
         className="relative w-full h-screen max-h-[580px] lg:max-h-[650px] md:max-h-[580px] flex flex-col md:flex-row items-center justify-between lg:px-12 md:px-12 py-16 overflow-hidden "
