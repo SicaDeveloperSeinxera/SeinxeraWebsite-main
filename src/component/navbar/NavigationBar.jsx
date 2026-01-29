@@ -20,17 +20,17 @@ const NavigationBar = () => {
 
   return (
     <nav className="bg-gray-800 shadow-lg sticky top-0 z-50">
-      <div className="max-w-8xl mx-auto px-8 ">
+      <div className="max-w-full mx-auto px-8 ">
         <div className="flex justify-between items-center py-0">
           {/* Logo */}
-          <div className="flex-shrink-0 ">
+          <div className="shrink-0 ">
             <Link to="/">
               <Logo />
             </Link>
           </div>
 
           {/* Desktop Links */}
-          <div className="hidden md:flex items-center gap-8 md:gap-6 text-white font-semibold">
+          <div className="hidden md:flex items-center justify-center gap-8 md:gap-6 text-white font-semibold">
             <Link to="/" className="hover:text-blue-300 transition text-nowrap">
               {t('nav.home')}
             </Link>
@@ -53,6 +53,7 @@ const NavigationBar = () => {
               {t('nav.contact')}
               <FaArrowRightFromBracket />
             </Link>
+            
             <button onClick={() => setIsGlobalOpen(!isGlobalOpen)} className="cursor-pointer"><img className="w-7 h-7"  src={globalIcon} alt="Global Icon" /></button>
 
             {isGlobalOpen && (
@@ -78,6 +79,20 @@ const NavigationBar = () => {
                 <AiOutlineMenuFold size={28} />
               )}
             </button>
+            <button onClick={() => setIsGlobalOpen(!isGlobalOpen)} className="cursor-pointer ml-2"><img className="w-7 h-7"  src={globalIcon} alt="Global Icon" /></button>
+
+            {isGlobalOpen && (
+              <div className="absolute top-18 right-0 bg-gray-600 p-4 rounded-md shadow-md">
+                <button onClick={() => changeLanguage('en')} className="block hover:text-blue-300 transition text-nowrap">
+                  {t('nav.languages.english')}
+                </button>
+                <button onClick={() => changeLanguage('ja')} className="block hover:text-blue-300 transition text-nowrap">
+                  {t('nav.languages.japanese')}
+                </button>
+              </div>
+            )
+
+            }
           </div>
         </div>
 

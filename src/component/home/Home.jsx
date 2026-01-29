@@ -10,7 +10,7 @@ import Portfolio from "./Portfolio";
 const Home = () => {
   const { t } = useTranslation();
   return (
-    <div>
+    <div className="bg-blue-600"> 
       {/* Hero Section */}
       <div
         className="relative w-full h-screen max-h-[580px] lg:max-h-[650px] md:max-h-[580px] flex flex-col md:flex-row items-center justify-between lg:px-12 md:px-12 py-16 overflow-hidden "
@@ -39,7 +39,7 @@ const Home = () => {
           className="md:w-1/2 z-10 self-end sm:ml-10 md:ml-0 flex justify-end items-center"
         >
           <Link to="/contact" className="btn">
-            <button className="rounded-full text-1xl font-semibold text-gray-800 px-6 py-4 bg-gray-200 self-end cursor-pointer">
+            <button className="rounded-full text-1xl font-semibold text-gray-800 px-6 mx-4 py-4 bg-gray-200 self-end cursor-pointer">
               {t("hero.button")}
             </button>
           </Link>
