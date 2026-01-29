@@ -163,11 +163,11 @@
     "roles": {
       "webdev": "Web開発者",
       "java": "Java開発者",
-      "jmanager": "ジュニアプロジェクトマネージャー",
+      "jmanager": "フルスタック開発者",
       "jdev": "ジュニア開発者",
-      "wdev": "ソフトウェア開発者インターン",
-      "UI": "UI/UXデザイナーインターン",
-      "ai": "AI/MLインターン",
+      "wdev": "ソフトウェア開発者",
+      "UI": "UI/UXデザイナー",
+      "ai": "AI/ML開発者",
       "pythonResearch": "Python開発者兼研究者"
     },
     "testimonials": {

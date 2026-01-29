@@ -186,11 +186,11 @@
     "roles": {
       "webdev": "Web Developer",
       "java": "Java Developer",
-      "jmanager": "Junior Project Manager",
+      "jmanager": "Full Stack Developer",
       "jdev": "Junior Developer",
-      "wdev": "Software Developer Intern",
-      "UI": "UI/UX Designer Intern",
-      "ai": "AI/ML Intern",
+      "wdev": "Software Developer ",
+      "UI": "UI/UX Designer ",
+      "ai": "AI/ML Developer",
       "pythonResearch": "Python Developer and Researcher"
     },
     "testimonials": {
