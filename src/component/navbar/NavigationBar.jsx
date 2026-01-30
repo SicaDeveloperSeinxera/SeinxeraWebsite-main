@@ -50,7 +50,7 @@ const NavigationBar = () => {
           <div className="flex gap-8 md:gap-6">
 
             {/* Desktop Links */}
-            <div className="hidden md:flex items-center justify-center gap-8 md:gap-6 text-white text-sm font-semibold">
+            <div className="hidden md:flex items-center justify-center gap-8 md:gap-4 text-white text-sm font-semibold">
               <Link to="/" className="hover:text-blue-300 transition text-nowrap">
                 {t("nav.home")}
               </Link>

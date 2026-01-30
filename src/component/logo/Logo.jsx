@@ -3,10 +3,15 @@ import logo from "../../assets/logogoogogoo.png";
 
 const Logo = () => {
   return (
-    <div className="flex">
-      <img className="w-[90px] h-[90px] shrink-0" src={logo} alt="Logo" />
-      <div className="flex-col items-center pt-8 hidden lg:flex">
-        <h1 className="ml-2 transition-[font-size] text-white lg:text-xl font-bold tracking-wider">
+    <div className="flex items-center">
+      <img
+        className="w-[90px] h-[90px] shrink-0 -ml-2 lg:ml-0"
+        src={logo}
+        alt="Logo"
+      />
+
+      <div className="flex-1 md:text-center lg:text-left">
+        <h1 className="text-white font-bold tracking-wider sm:text-base md:text-lg flex-1 md:text-center lg:text-left lg:text-xl">
           SEINXERA
         </h1>
       </div>
