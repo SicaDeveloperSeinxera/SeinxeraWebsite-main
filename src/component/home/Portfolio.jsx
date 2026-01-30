@@ -56,7 +56,7 @@ const Portfolio = () => {
 
   return (
     <div
-      className="bg-white p-2 sm:p-8 rounded-t-2xl min-h-[400px] h-full text-center"
+      className="bg-white p-2 sm:p-8 rounded-t-2xl min-h-[300px] h-full text-center"
       style={{
         backgroundImage: `url(${cityBackground})`,
         backgroundSize: "cover",
@@ -88,7 +88,7 @@ const Portfolio = () => {
                 className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2 sm:p-8 min-h-[420px] max-w-[1200px]"
               >
                 <img
-                  className="w-full md:w-[400px] h-[310px] sm:h-[400px] rounded-xl object-fill mx-auto"
+                  className="w-full md:w-[450px] h-[350px] rounded-xl object-fill mx-auto"
                   src={slides[current].image}
                   alt={slides[current].title}
                 />

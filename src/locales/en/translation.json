@@ -90,7 +90,7 @@
     "title": "About Us",
     "tagline": "Empowering ideas through technology. We are a passionate team delivering innovative digital solutions.",
     "whoWeAre": "Who We Are",
-    "p1": "Seinxera is a leading software company based in Nepal, committed to delivering top-notch digital products and services. We specialize in web development, mobile apps, Desktop App, Specialize in AI, IT, IOT and cloud-based solutions.",
+    "p1": "SEINXERA is a leading software company based in Nepal, committed to delivering top-notch digital products and services. We specialize in web development, mobile apps, Desktop App, Specialize in AI, IT, IOT and cloud-based solutions.",
     "p2": "Our dedicated team works closely with clients to bring their ideas to life and provide scalable, secure, and modern technology solutions. It also focus on advanced technologies",
     "contactCta": "Contact Us",
     "missionTitle": "Our Mission",
@@ -171,7 +171,7 @@
       "subject": "e.g., Project Inquiry",
       "message": "Tell us about your project or inquiry..."
     },
-    "policyConsent": "I have read and agree to Seinxera Solutions' Privacy Policy and Terms of Service.",
+    "policyConsent": "I have read and agree to SEINXERA' Privacy Policy and Terms of Service.",
     "privacyPolicy": "Privacy Policy",
     "submit": "Submit",
     "submitLoading": "Sending...",
@@ -182,7 +182,7 @@
   },
   "teams": {
     "title": "Our IT Team",
-    "subtitle": "At Seinxera, we are a leading IT company delivering cutting-edge solutions in software development, cloud services, and cybersecurity. Meet our talented team driving innovation!",
+    "subtitle": "At SEINXERA, we are a leading IT company delivering cutting-edge solutions in software development, cloud services, and cybersecurity. Meet our talented team driving innovation!",
     "roles": {
       "webdev": "Web Developer",
       "java": "Java Developer",
@@ -249,6 +249,6 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Use"
     },
-    "copyright": "© 2025 Seinxera. All Rights Reserved."
+    "copyright": "© 2025 SEINXERA. All Rights Reserved."
   }
 }
