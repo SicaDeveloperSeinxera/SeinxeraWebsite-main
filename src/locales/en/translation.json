@@ -187,7 +187,7 @@
       "webdev": "Web Developer",
       "java": "Java Developer",
       "jmanager": "Full Stack Developer",
-      "jdev": "Junior Developer",
+      "jdev": "Junior Software Developer",
       "wdev": "Software Developer ",
       "UI": "UI/UX Designer ",
       "ai": "AI/ML Developer",
@@ -197,9 +197,9 @@
       "t1": "A proactive Junior Manager responsible for supervising development processes and coordinating across teams. Oversees project progress, supports team growth, and ensures that design, development, and execution align with organizational goals.",
       "t2": "A detail-oriented Junior Developer who supports core development tasks across the application. Works closely with the team to implement features, fix bugs, and continuously improve system performance and reliability.",
       "t3": "An AI/ML Developer experienced in designing and implementing intelligent chatbot solutions. Focuses on natural language processing, model integration, and delivering practical AI features that enhance user interaction and automation.",
-      "t4": "A motivated Web Developer Intern with a strong foundation in modern web technologies. Actively contributes to building responsive, user-friendly interfaces while learning best practices in frontend and backend development.",
-      "t5": "A creative UI/UX Designer Intern with a keen eye for visual design and usability. Assists in crafting intuitive layouts, wireframes, and design components that improve overall user experience.",
-      "t6": "A passionate UI/UX Designer Intern focused on user-centered design principles. Contributes to research, prototyping, and refining interfaces to ensure consistency, accessibility, and visual clarity."
+      "t4": "A motivated Web Developer with a strong foundation in modern web technologies. Actively contributes to building responsive, user-friendly interfaces while learning best practices in frontend and backend development.",
+      "t5": "A creative UI/UX Designer with a keen eye for visual design and usability. Assists in crafting intuitive layouts, wireframes, and design components that improve overall user experience.",
+      "t6": "A passionate UI/UX Designer focused on user-centered design principles. Contributes to research, prototyping, and refining interfaces to ensure consistency, accessibility, and visual clarity."
     }
   },
   "careers": {
