@@ -1,5 +1,5 @@
 {
-  "logo":{
+  "logo": {
     "title": "SEINXERA"
   },
   "nav": {
@@ -94,7 +94,61 @@
     "p2": "Our dedicated team works closely with clients to bring their ideas to life and provide scalable, secure, and modern technology solutions. It also focus on advanced technologies",
     "contactCta": "Contact Us",
     "missionTitle": "Our Mission",
-    "missionBody": "Our mission is to create products and services that don’t just serve — they transform. We aim to build solutions that impact lives, empower communities, and spark progress.\n\nBy developing innovative systems and embracing continuous innovation, we push boundaries and challenge the status quo. We believe in solving real problems with technology, creativity, and purpose — crafting tools that make a difference today and shape a better tomorrow.\n\nEvery challenge we take on is an opportunity to deliver lasting impact. Through our commitment to excellence, agility, and innovation, we strive to turn bold ideas into reality."
+    "missionBody": "Our mission is to create products and services that don't just serve — they transform. We aim to build solutions that impact lives, empower communities, and spark progress.\n\nBy developing innovative systems and embracing continuous innovation, we push boundaries and challenge the status quo. We believe in solving real problems with technology, creativity, and purpose — crafting tools that make a difference today and shape a better tomorrow.\n\nEvery challenge we take on is an opportunity to deliver lasting impact. Through our commitment to excellence, agility, and innovation, we strive to turn bold ideas into reality.",
+    "information": {
+      "title": "Company Information",
+      "company": {
+        "label": "Company Name",
+        "value": "INNOVATION CERNTER NEPAL PVT LTD"
+      },
+      "brand": {
+        "label": "Brand Name",
+        "value": "SEINXERA"
+      },
+      "established": {
+        "label": "Established",
+        "value": "January 2025"
+      },
+      "representative": {
+        "label": "Representative",
+        "value": "Kiran Rijal, CEO"
+      },
+      "address": {
+        "label": "Address",
+        "value": "Tarakeshwar-10, Kathmandu, Nepal"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "092-725-5649"
+      },
+      "email": {
+        "label": "Email",
+        "value": "seinxera@seinxera.com"
+      },
+      "employees": {
+        "label": "Number of Employees",
+        "value": "11 (as of January 2026)"
+      },
+      "info": {
+        "label": "Business Description",
+        "value": "We provide one-stop IT solutions from design to development to operation to maintenance.",
+        "sub": "We cover a wide range of areas, from core business to web, apps, and IoT.",
+        "points": {
+          "0": "Cloud-based sales management system and core system development",
+          "1": "Developing various solutions that lead to business efficiency",
+          "2": "Logistics industry systems/delivery management solutions",
+          "3": "Shift and attendance management system development",
+          "4": "E-commerce and cross-border e-commerce related system development",
+          "5": "Original CMS development and corporate website production",
+          "6": "Mobile app development (iOS, Android, Flutter)",
+          "7": "IoT-related solutions and R&D (facial beauty device IoT, safety management IoT, etc.)",
+          "8": "Server construction, operation, and maintenance for AWS, Sakura Cloud, etc.",
+          "9": "Graphics business such as image processing and illustration production",
+          "10": "Drone photography and video editing",
+          "11": "IT outsourcing and BPO services"
+        }
+      }
+    }
   },
   "services": {
     "title": "Our Services",
