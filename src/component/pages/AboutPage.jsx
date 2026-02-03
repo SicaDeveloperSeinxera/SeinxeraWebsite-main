@@ -6,9 +6,11 @@ import { useTranslation } from "react-i18next";
 import Maps from "../address/Maps";
 import PageTransition from "../PageTransition";
 import { FaGlobe, FaBuilding, FaCalendar, FaMapPin, FaPhone } from "react-icons/fa";
-import { GiBanknote } from "react-icons/gi";
+import { FaPeopleRoof } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 import logo from "../../assets/logogoogogoo.png";
+import { SiBrandfolder } from "react-icons/si";
+import { MdOutlinePersonPin } from "react-icons/md";
 
 const About = () => {
   const { t } = useTranslation();
@@ -122,9 +124,9 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="flex gap-3 items-center px-4 py-2 border-2 border-blue-100 bg-gray-50 rounded-lg">
+              <div className="flex gap-3 items-center px-4 py-2 border-2 border-indigo-100 bg-gray-50 rounded-lg">
                 <div>
-                  <FaBuilding className="bg-blue-100 text-blue-600 px-2 size-10 rounded-xl" />
+                  <SiBrandfolder className="bg-indigo-100 text-indigo-600 px-2 size-10 rounded-xl" />
                 </div>
                 <div>
                   <h3 className="text-gray-500 text-xs">
@@ -152,7 +154,7 @@ const About = () => {
 
               <div className="flex gap-3 items-center px-4 py-2 border-2 border-purple-100 bg-gray-50 rounded-lg">
                 <div>
-                  <GiBanknote className="bg-purple-100 text-purple-600 px-2 size-10 rounded-xl" />
+                  <MdOutlinePersonPin className="bg-purple-100 text-purple-600 px-2 size-10 rounded-xl" />
                 </div>
                 <div>
                   <h3 className="text-gray-500 text-xs">
@@ -166,7 +168,7 @@ const About = () => {
 
               <div className="flex gap-3 items-center px-4 py-2 border-2 border-red-100 bg-gray-50 rounded-lg">
                 <div>
-                  <FaMapPin className="bg-red-100 text-red-600 px-2 size-10 rounded-xl" />
+                  <FaMapPin className="bg-red-100 text-red-600 px-2 size-10 py-1 rounded-xl" />
                 </div>
                 <div>
                   <h3 className="text-gray-500 text-xs">
@@ -206,9 +208,9 @@ const About = () => {
                 </div>
               </div>
 
-              <div className="flex gap-3 items-center px-4 py-2 border-2 border-fuchsia-100 bg-gray-50 rounded-lg">
+              <div className="flex gap-3 items-center px-4 py-2 border-2 border-pink-100 bg-gray-50 rounded-lg">
                 <div>
-                  <IoMdMail className="bg-fuchsia-100 text-fuchsia-600 px-2 size-10 rounded-xl" />
+                  <FaPeopleRoof className="bg-pink-100 text-pink-600 px-2 size-10 rounded-xl" />
                 </div>
                 <div>
                   <h3 className="text-gray-500 text-xs">
