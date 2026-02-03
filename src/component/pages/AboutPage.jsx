@@ -84,10 +84,10 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row mt-7 border-2 border-gray-200 rounded-xl overflow-clip shadow-xl w-full">
+        <div className="flex flex-col xl:flex-row mt-7 border-2 border-gray-200 rounded-xl overflow-clip shadow-xl w-full">
 
           {/**Image Section*/}
-          <div className="relative bg-[url('/city-background.jpg')] w-full h-150 sm:h-170 md:h-200 lg:h-auto bg-cover bg-no-repeat lg:w-2/5 ">
+          <div className="relative bg-[url('/city-background.jpg')] w-full h-110 sm:h-150 md:h-180 xl:h-auto bg-cover bg-no-repeat xl:w-2/5 ">
             <div className="absolute bottom-4 left-4 flex items-center">
               <img
                 className="w-22.5 h-22.5 shrink-0 -ml-2 lg:ml-0"
@@ -108,7 +108,7 @@ const About = () => {
               <h2 className="ml-2 text-lg text-black/80">{t('about.information.title')}</h2>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 border-b border-gray-200 mt-4 w-full pb-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 border-b border-gray-200 mt-4 w-full pb-4">
 
               <div className="flex gap-3 items-center px-4 py-2 border-2 border-blue-100 bg-gray-50 rounded-lg">
                 <div>
@@ -226,10 +226,9 @@ const About = () => {
             <div className="flex flex-col w-full mt-4 mb-5 text-sm items-center">
               <p>{t('about.information.info.value')} {t('about.information.info.sub')}</p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 mt-3 gap-x-2 text-xs text-gray-600 w-full justify-between">
+              <div className="grid grid-cols-1 sm:grid-cols-2 mt-2 gap-x-1 gap-y-1 text-[13px] text-gray-600 w-full justify-between">
                 {Array.from({ length: 12 }, (_, i) => (
-                  <div key={i} className="flex gap-1">
-                    <p>{i + 1}. </p>
+                  <div key={i} className="bg-gray-50 px-1 py-1 rounded-md border-gray-300 border">
                     {t(`about.information.info.points.${i}`)}
                   </div>
                 ))}
