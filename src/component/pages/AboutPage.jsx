@@ -14,6 +14,7 @@ import { MdOutlinePersonPin } from "react-icons/md";
 
 const About = () => {
   const { t } = useTranslation();
+  const points = t('about.information.info.points', { returnObjects: true });
   return (
     <PageTransition>
       <div className="bg-white text-gray-800 px-6 md:px-20 py-12">
@@ -202,9 +203,11 @@ const About = () => {
                   <h3 className="text-gray-500 text-xs">
                     {t('about.information.email.label')}
                   </h3>
-                  <p className="text-sm mt-1">
-                    {t('about.information.email.value')}
-                  </p>
+                  <a href={`https://mail.google.com/mail/u/0/?view=cm&fs=1&to= + ${t('about.information.email.value')}`} target="_blank" className="hover:underline">
+                    <p className="text-sm mt-1">
+                      {t('about.information.email.value')}
+                    </p>
+                  </a>
                 </div>
               </div>
 
@@ -227,9 +230,9 @@ const About = () => {
               <p>{t('about.information.info.value')} {t('about.information.info.sub')}</p>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 mt-2 gap-x-1 gap-y-1 text-[13px] text-gray-600 w-full justify-between">
-                {Array.from({ length: 12 }, (_, i) => (
+                {points.map((_, i) => (
                   <div key={i} className="bg-gray-50 px-1 py-1 rounded-md border-gray-300 border">
-                    {t(`about.information.info.points.${i}`)}
+                    {points[i]}
                   </div>
                 ))}
               </div>

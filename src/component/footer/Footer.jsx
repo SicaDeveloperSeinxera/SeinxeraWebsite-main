@@ -9,7 +9,6 @@ import {
 import { FaTiktok } from "react-icons/fa6";
 import { HiArrowRight } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import Logo from "../logo/Logo";
 import { useTranslation } from "react-i18next";
 export default function Footer() {
   const { t } = useTranslation();
@@ -185,7 +184,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-slate-800 mt-12 pt-8">
           <p className="text-center text-gray-400 text-sm">
-            {t('footer.copyright')}
+            © {new Date().getFullYear()} {t('footer.copyright')}
           </p>
         </div>
       </div>

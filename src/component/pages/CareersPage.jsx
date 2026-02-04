@@ -5,7 +5,6 @@ import career from "../../assets/career-background.jpg";
 import slide1 from "../../assets/internship-image.jpg";
 import slide2 from "../../assets/pexels-anastasia-shuraeva-7647381.jpg";
 import img2 from "../../assets/img2.png";
-import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
 const CareerSlide = ({ image, title, text }) => (
@@ -32,7 +31,7 @@ const Careers = () => {
         {/* Hero Image */}
         <div>
           <img
-            className="w-full object-cover max-h-[500px]"
+            className="w-full object-cover max-h-125"
             src={career}
             alt="career"
           />
@@ -67,7 +66,7 @@ const Careers = () => {
               </p>
             </div>
           </div>
-          <div className="flex flex-col lg:flex-row items-center w-full gap-6 relative h-[500px]">
+          <div className="flex flex-col lg:flex-row items-center w-full gap-6 relative h-125">
             <div className="w-full lg:w-2/3 p-4 max-w-3xl">
               <h2 className="text-2xl md:text-3xl font-bold text-orange-600">
                 {t("careers.slides.second.title")}
@@ -79,18 +78,18 @@ const Careers = () => {
             <img
               src={slide2}
               alt={t("careers.slides.second.title")}
-              className=" right-0 lg:w-1/2 rounded-md h-[500px] w-[500px] object-cover"
+              className=" right-0 lg:w-1/2 rounded-md h-125 w-125 object-cover"
             />
           </div>
         </div>
 
         {/* Full Image */}
         <div
-          className={`w-full bg-cover bg-no-repeat bg-center h-[500px] relative`}
+          className={`w-full bg-cover bg-no-repeat bg-center h-125 relative`}
           style={{ backgroundImage: `url(${img2})` }}
         >
           <div className="w-full px-4">
-            <div className="absolute bottom-[150px] lg:absolute lg:bottom-[150px] left-1/2 transform -translate-x-1/2 bg-white p-6 rounded-lg shadow-md w-full max-w-lg text-center border border-gray-200">
+            <div className="absolute bottom-37.5 lg:absolute lg:bottom-37.5 left-1/2 transform -translate-x-1/2 bg-white p-6 rounded-lg shadow-md w-full max-w-lg text-center border border-gray-200">
               <h3 className="text-orange-600 text-sm font-semibold uppercase">
                 {t("careers.join.ribbon")}
               </h3>
@@ -100,7 +99,7 @@ const Careers = () => {
               <p className="text-gray-600 mt-4">{t("careers.join.text")}</p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-6">
-                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=03seinxera@gmail.com">
+                <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=seinxera@seinxera.com" target="_blank">
                   <button className="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500">
                     {t("careers.join.submitCta")}{" "}
                     <IoIosArrowForward className="inline ml-1 text-lg" />

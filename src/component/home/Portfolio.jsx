@@ -56,7 +56,7 @@ const Portfolio = () => {
 
   return (
     <div
-      className="bg-white p-2 sm:p-8 rounded-t-2xl min-h-[300px] h-full text-center"
+      className="bg-white p-2 sm:p-8 rounded-t-2xl min-h-75 h-full text-center"
       style={{
         backgroundImage: `url(${cityBackground})`,
         backgroundSize: "cover",
@@ -67,7 +67,7 @@ const Portfolio = () => {
         {t("portfolio.header")}
       </div>
 
-      <div className="relative mx-auto my-12 max-w-[1000px]">
+      <div className="relative mx-auto my-12 max-w-250">
         {/* Invisible edge controls with delayed arrow hints */}
         <EdgeControls prev={prev} next={next} />
 
@@ -85,10 +85,10 @@ const Portfolio = () => {
                 animate={{ x: 0, opacity: 1 }}
                 exit={{ x: -40, opacity: 0 }}
                 transition={{ duration: 0.4, ease: "easeOut" }}
-                className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2 sm:p-8 min-h-[420px] max-w-[1200px]"
+                className="grid grid-cols-1 md:grid-cols-2 gap-6 p-2 sm:p-8 min-h-105 max-w-300"
               >
                 <img
-                  className="w-full md:w-[450px] h-[350px] rounded-xl object-fill mx-auto"
+                  className="w-full md:w-112.5 h-87.5 rounded-xl object-fill mx-auto"
                   src={slides[current].image}
                   alt={slides[current].title}
                 />
@@ -99,7 +99,7 @@ const Portfolio = () => {
                   <p className="text-gray-700 text-sm mt-2 font-semibold text-left">
                     {slides[current].text}
                   </p>
-                  <p className="text-gray-600 mt-12 leading-relaxed text-justify max-w-[500px]">
+                  <p className="text-gray-600 mt-12 leading-relaxed text-justify max-w-125">
                     {slides[current].description}
                   </p>
                 </div>

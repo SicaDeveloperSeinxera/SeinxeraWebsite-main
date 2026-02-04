@@ -13,7 +13,7 @@ const Home = () => {
     <div> 
       {/* Hero Section */}
       <div
-        className="relative w-full h-screen max-h-[580px] lg:max-h-[650px] md:max-h-[580px] flex flex-col md:flex-row items-center justify-between lg:px-12 md:px-12 py-16 overflow-hidden "
+        className="relative w-full h-screen max-h-145 lg:max-h-162.5 md:max-h-145 flex flex-col md:flex-row items-center justify-between lg:px-12 md:px-12 py-16 overflow-hidden "
         style={{
           backgroundImage: `url(${home})`,
           backgroundSize: "cover",

@@ -133,20 +133,19 @@
         "label": "Business Description",
         "value": "We provide one-stop IT solutions from design to development to operation to maintenance.",
         "sub": "We cover a wide range of areas, from core business to web, apps, and IoT.",
-        "points": {
-          "0": "Cloud-based sales management system and core system development",
-          "1": "Developing various solutions that lead to business efficiency",
-          "2": "Logistics industry systems/delivery management solutions",
-          "3": "Shift and attendance management system development",
-          "4": "E-commerce and cross-border e-commerce related system development",
-          "5": "Original CMS development and corporate website production",
-          "6": "Mobile app development (iOS, Android, Flutter)",
-          "7": "IoT-related solutions and R&D (facial beauty device IoT, safety management IoT, etc.)",
-          "8": "Server construction, operation, and maintenance for AWS, Sakura Cloud, etc.",
-          "9": "Graphics business such as image processing and illustration production",
-          "10": "Drone photography and video editing",
-          "11": "IT outsourcing and BPO services"
-        }
+        "points": [
+          "Cloud-based sales management system and core system development",
+          "Developing various solutions that lead to business efficiency",
+          "Logistics industry systems/delivery management solutions",
+          "Shift and attendance management system development",
+          "E-commerce and cross-border e-commerce related system development",
+          "Original CMS development and corporate website production",
+          "Mobile app development (iOS, Android, Flutter)",
+          "IoT-related solutions and R&D (facial beauty device IoT, safety management IoT, etc.)",
+          "Server construction, operation, and maintenance for AWS, Sakura Cloud, etc.",
+          "Graphics business such as image processing and illustration production",
+          "IT outsourcing and BPO services"
+        ]
       }
     }
   },
@@ -204,7 +203,7 @@
     "header": "Get in Touch",
     "subtitle": "Tell us what you're looking for. We'll get back to you.",
     "cooperate": "Partner with Us",
-    "address": "Hiledol, Kathmandu",
+    "address": "Tarakeshwar-10, Kathmandu, Nepal",
     "labels": {
       "fullName": "Full Name",
       "title": "Title/Position",
@@ -303,6 +302,6 @@
       "privacy": "Privacy Policy",
       "terms": "Terms of Use"
     },
-    "copyright": "© 2025 SEINXERA. All Rights Reserved."
+    "copyright": "SEINXERA. All Rights Reserved."
   }
 }
