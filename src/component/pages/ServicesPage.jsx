@@ -21,7 +21,7 @@ const Services = () => {
 
   return (
     <PageTransition>
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 py-16 px-6 md:px-20">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 to-blue-100 py-16 px-6 md:px-20">
       <div className="text-center mb-16 ">
         <h1 className="text-4xl md:text-5xl font-extrabold text-blue-900 mb-4">
           {t('services.title')}
