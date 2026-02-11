@@ -4,14 +4,15 @@ import home from "../../assets/landing-page-image.jpg";
 import { useTranslation } from "react-i18next";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
+import About from "./About";
 
 const Home = () => {
   const { t } = useTranslation();
   return (
     <div>
       {/* Hero Section */}
-      <div
-        className="w-full h-screen max-h-145 lg:max-h-162.5 md:max-h-145 flex flex-col items-center justify-center overflow-hidden px-2 sm:px-0"
+      <section
+        className="w-full h-screen max-h-145 lg:max-h-162.5 md:max-h-145 flex flex-col items-center justify-center overflow-hidden px-2 md:px-0"
         style={{
           backgroundImage: `url(${home})`,
           backgroundSize: "cover",
@@ -80,7 +81,7 @@ const Home = () => {
             {t("hero.button1")}
           </motion.a>
 
-          <motion.a href="/contact"
+          <motion.a href="/service"
             initial={{ opacity: 0, x: 200 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2, delay: 3 }}
@@ -89,9 +90,9 @@ const Home = () => {
             {t("hero.button2")}
           </motion.a>
         </div>
-      </div>
+      </section>
 
-      {/* Industry Section */}
+      <About />
       <Services />
       <Portfolio />
     </div>

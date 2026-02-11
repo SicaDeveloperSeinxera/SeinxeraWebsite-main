@@ -90,6 +90,30 @@
       }
     }
   },
+  "homeAbout": {
+    "title": "WHO WE ARE",
+    "subtitle": "Your Strategic Technology Partner",
+    "description1": "SEINXERA is a leading software company based in Nepal, committed to delivering top-notch digital products and services. We specialize in web development, mobile apps, Desktop App, Specialize in AI, IT, IOT and cloud-based solutions.",
+    "description2": "Our dedicated team works closely with clients to bring their ideas to life and provide scalable, secure, and modern technology solutions. We also focus on advanced technologies.",
+    "highlights": [
+      {
+        "value": "10+",
+        "label": "Projects Delivered"
+      },
+      {
+        "value": "5+",
+        "label": "Global Clients"
+      },
+      {
+        "value": "5+",
+        "label": "Services Offered"
+      },
+      {
+        "value": "99%",
+        "label": "Client Satisfaction"
+      }
+    ]
+  },
   "about": {
     "title": "About Us",
     "tagline": "Empowering ideas through technology. We are a passionate team delivering innovative digital solutions.",
