@@ -4,7 +4,6 @@ import PageTransition from "../PageTransition";
 import ai from '../../assets/services/Artificial intelligence-rafiki.svg';
 import web from '../../assets/services/web.svg';
 import mobile from '../../assets/services/mobile.svg';
-import cloud from '../../assets/services/cloud.svg';
 import security from '../../assets/services/security.svg';
 
 const services = [

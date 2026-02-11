@@ -15,9 +15,13 @@
     }
   },
   "hero": {
+    "heading": "AI & Software Solutions",
+    "for": "for",
     "title": "Changing the Life of Humanity",
-    "subtitle": "One Step at a Time",
-    "button": "Join Us"
+    "subtitle": "One Innovation at a Time",
+    "description": "We design, develop, and scale web applications that help companies grow faster.",
+    "button1": "Get In Touch",
+    "button2": "Our Services"
   },
   "portfolio": {
     "header": "Building the future, One Project at a Time",

@@ -51,7 +51,7 @@ const TeamsPage = () => {
           >
             {teamMembers.map((member) => (
               <SwiperSlide key={member.id} className="py-10">
-                <div className="relative bg-gray-100 border mt-4 border-gray-200 rounded-2xl shadow-sm p-8 h-[400px] flex flex-col items-center">
+                <div className="relative bg-gray-100 border mt-4 border-gray-200 rounded-2xl shadow-sm p-8 h-100 flex flex-col items-center">
                   
                   {/* Floating Avatar */}
                   <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
