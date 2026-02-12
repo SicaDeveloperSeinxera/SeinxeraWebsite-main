@@ -27,7 +27,7 @@ const Services = () => {
                 style={{ backgroundImage: `url(/${cards.img})` }}
               >
                 <h3 className="text-xl sm:text-3xl md:text-4xl font-bold">{cards.title}</h3>
-                <p className="text-xs sm:text-sm md:text-[15px]">{cards.description}</p>
+                <p className="text-xs sm:text-sm md:text-[15px]">{cards.shortDescription}</p>
               </motion.div>
 
               <motion.div
