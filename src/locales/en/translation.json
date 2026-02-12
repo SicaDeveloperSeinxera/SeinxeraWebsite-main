@@ -179,53 +179,39 @@
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Empowering your business with cutting-edge technology solutions.",
-    "cards": {
-      "ai_ml": {
+    "subtitle": "End-to-end technology services designed to accelerate your digital transformation.",
+    "cards": [
+      {
+        "img": "ai_ml.png",
         "title": "AI/ML Solutions",
-        "description": "Custom AI and machine learning models, automation, and intelligent systems tailored to your business."
+        "description": "Intelligent systems for automation, analytics and prediction."
       },
-      "cad": {
+      {
+        "img": "cad.jpg",
         "title": "CAD Development",
-        "description": "High-precision CAD modeling, drafting, and design support for engineering and product development."
+        "description": "CAD tracing, 2D/3D drawings, engineering documentation."
       },
-      "data_annotation": {
+      {
+        "img": "data_annotation.png",
         "title": "Data Annotation",
-        "description": "Accurate data labeling for computer vision, NLP, and AI pipelines with rigorous quality control."
+        "description": "Image, text, audio, and video annotation."
       },
-      "web": {
+      {
+        "img": "web.jpg",
         "title": "Web Development",
-        "description": "Custom web applications and responsive websites using the latest technologies."
+        "description": "Corporate websites, dashboards, web apps, CMS platforms."
       },
-      "mobile": {
-        "title": "Mobile App Development",
-        "description": "Cross-platform and native mobile app development tailored to your needs."
-      },
-      "cloud": {
-        "title": "Cloud Solutions",
-        "description": "Cloud migration, DevOps, and scalable cloud-native services."
-      },
-      "security": {
-        "title": "Cybersecurity",
-        "description": "Protect your digital assets with advanced security audits and tools."
-      },
-      "ai": {
-        "title": "AI & Automation",
-        "description": "Smart solutions with AI, ML, chatbots, and workflow automation."
-      },
-      "consulting": {
-        "title": "IT Consulting",
-        "description": "Expert advice and strategy for IT infrastructure, software, and operations."
-      },
-      "desktop": {
+      {
+        "img": "desktop.jpg",
         "title": "Desktop Development",
-        "description": "Robust, performant desktop applications for Windows, macOS, and Linux."
+        "description": "Business tools, internal systems, productivity software."
       },
-      "ocr_data_entry": {
+      {
+        "img": "ocr_data_entry.png",
         "title": "OCR and Data Entry",
-        "description": "Document digitization with OCR and reliable data entry services at scale."
+        "description": "Invoice processing, document digitization, data migration."
       }
-    }
+    ]
   },
   "contact": {
     "header": "Get in Touch",

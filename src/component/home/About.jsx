@@ -4,14 +4,14 @@ import { motion } from "framer-motion";
 const About = () => {
     const { t } = useTranslation();
     return (
-        <section className="flex flex-col md:flex-row px-2 sm:px-20 my-10 w-full lg:gap-x-10 gap-y-10">
+        <section className="flex flex-col md:flex-row px-2 sm:px-20 my-15 w-full lg:gap-x-10 gap-y-10">
             <div className="flex-1">
                 <motion.h1
                     className="text-xl sm:text-2xl text-[#0D00FC] font-medium"
                     initial={{ opacity: 0, x: 50 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 1.2, delay: 1 }}
-                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true, amount: 0.2 }}
                 >
                     {t("homeAbout.title")}
                 </motion.h1>
@@ -20,8 +20,8 @@ const About = () => {
                     className="text-lg sm:text-xl mt-1.5"
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 1.2, delay: 1 }}
-                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true, amount: 0.2 }}
                 >
                     {t("homeAbout.description1")}
                 </motion.p>
@@ -29,8 +29,8 @@ const About = () => {
                     className="text-lg sm:text-xl"
                     initial={{ opacity: 0, x: -50 }}
                     whileInView={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 1.2, delay: 1.5 }}
-                    viewport={{ once: true, amount: 0.3 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true, amount: 0.2 }}
                 >
                     {t("homeAbout.description2")}
                 </motion.p>
@@ -43,8 +43,8 @@ const About = () => {
                                 className="flex items-center justify-center text-4xl sm:text-6xl bg-linear-to-b from-[#5C7CFE] to-[#0D00FC] text-transparent bg-clip-text font-bold"
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 1, delay: index + 1 }}
-                                viewport={{ once: true, amount: 0.3 }}
+                                transition={{ duration: 0.8, delay: index/2 }}
+                                viewport={{ once: true, amount: 0.2 }}
                             >
                                 {item.value}
                             </motion.div>
@@ -53,8 +53,8 @@ const About = () => {
                                 className="text-xl sm:text-2xl"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.5, delay: index + 1.5 }}
-                                viewport={{ once: true, amount: 0.3 }}
+                                transition={{ duration: 0.5, delay: index/2 + 0.5 }}
+                                viewport={{ once: true, amount: 0.2 }}
                             >
                                 {item.label}
                             </motion.p>

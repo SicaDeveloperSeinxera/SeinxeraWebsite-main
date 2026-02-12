@@ -55,7 +55,7 @@ const Portfolio = () => {
   const prev = () => setCurrent((i) => (i - 1 + slides.length) % slides.length);
 
   return (
-    <div
+    <section
       className="bg-white p-2 sm:p-8 rounded-t-2xl min-h-75 h-full text-center"
       style={{
         backgroundImage: `url(${cityBackground})`,
@@ -122,7 +122,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

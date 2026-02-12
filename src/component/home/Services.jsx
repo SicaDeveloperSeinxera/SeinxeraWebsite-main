@@ -1,55 +1,47 @@
-import React from "react";
-import webDevCode from "../../assets/web-dev-code.jpg";
 import { useTranslation } from "react-i18next";
-
-// Mirror the Services Page categories
-const serviceIds = [
-  "ai_ml",
-  "cad",
-  "data_annotation",
-  "web",
-  "desktop",
-  "ocr_data_entry",
-];
-
+import { motion } from "framer-motion";
 
 
 const Services = () => {
   const { t } = useTranslation();
   return (
-    <div className="bg-gray-200 p-8 rounded-t-2xl min-h-[400px] h-full text-center flex flex-col md:flex-row align-items-center">
-      <div className="text-4xl sm:text-5xl font-semibold text-gray-800 px-1 py-16 mb-8 self-center sm:w-1/3">
-        {t('services.title')}
+    <section className="flex flex-col my-15 w-full items-center px-2">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold">{t("services.title")}</h1>
+      <h2 className="sm:text-lg md:text-xl mt-1">{t("services.subtitle")}</h2>
+      <div className="grid grid-cols-2 lg:grid-cols-3 w-full gap-1 sm:gap-4 md:gap-6 lg:gap-5 mt-8 sm:px-[5%]">
+        {t("services.cards", { returnObjects: true }).map((cards, index) => {
+          return (
+            <>
+              <motion.div
+                initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                viewport={{ once: true, amount: 0.2 }}
+                key={index}
+                className="flex flex-col aspect-square bg-cover bg-center sm:rounded-lg rounded-md items-center justify-center px-3 text-white lg:hidden"
+                style={{ backgroundImage: `url(/${cards.img})` }}
+              >
+                <h3 className="text-xl sm:text-3xl md:text-4xl font-bold">{cards.title}</h3>
+                <p className="text-xs sm:text-sm md:text-[15px]">{cards.description}</p>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: (index+2) % 3 === 0 ? 0 : index % 3 === 0 ? -50 : 50, scale: (index+2) % 3 === 0 ? 0.8 : 1 }}
+                whileInView={{ opacity: 1, x: 0, scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                viewport={{ once: true, amount: 0.2 }}
+                key={index}
+                className="aspect-square bg-cover bg-center sm:rounded-lg rounded-md items-center justify-center px-3 text-white hidden lg:flex lg:flex-col"
+                style={{ backgroundImage: `url(/${cards.img})` }}
+              >
+                <h3 className="text-xl sm:text-3xl md:text-4xl font-bold">{cards.title}</h3>
+                <p className="text-xs sm:text-sm md:text-[15px]">{cards.description}</p>
+              </motion.div>
+            </>
+          )
+        })
+        }
       </div>
-      
-      {/* 2x3 Grid Section */}
-      <div className="pl-6 lg:w-2/3 ">
-        <div className="grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-2 gap-6 h-full w-full max-w-4xl mx-auto ">
-          {serviceIds.map((id, index) => (
-          <div
-            key={index}
-            className="group relative rounded-lg shadow-md min-h-[200px] min-w-[200px] flex items-center justify-center overflow-hidden border border-gray-300 hover:shadow-lg duration-200 hover:scale-105 transform transition-transform ease-in-out"
-            style={{
-              backgroundImage: `url(${webDevCode})`,
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundRepeat: "no-repeat",
-            }}
-          >
-            {/* This is the new dark tint layer */}
-            {/* The 'group-hover:opacity-75' class makes the tint darker on hover */}
-            <div className="absolute inset-0 bg-gray-800 opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
-
-            <div className="relative z-10 p-6 text-gray-200 text-center">
-              <span className="font-bold text-xl md:text-2xl">
-                {t(`services.cards.${id}.title`)}
-              </span>
-            </div>
-          </div>
-        ))}
-        </div>
-      </div>
-    </div>
+    </section>
   );
 };
 

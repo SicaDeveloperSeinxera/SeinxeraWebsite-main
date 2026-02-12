@@ -179,53 +179,39 @@
   },
   "services": {
     "title": "私たちのサービス",
-    "subtitle": "最先端の技術ソリューションであなたのビジネスを強化します。",
-    "cards": {
-      "ai_ml": {
+    "subtitle": "デジタル変革を加速するために設計されたエンドツーエンドのテクノロジー サービス。",
+    "cards": [
+      {
+        "img": "ai_ml.png",
         "title": "AI/ML ソリューション",
-        "description": "ビジネスに合わせたカスタムAIおよび機械学習モデル、自動化、知的システム。"
+        "description": "自動化、分析、予測のためのインテリジェント システム。"
       },
-      "cad": {
+      {
+        "img": "cad.jpg",
         "title": "CAD開発",
-        "description": "エンジニアリングおよび製品開発のための高精度CADモデリング、製図、設計サポート。"
+        "description": "CAD トレース、2D/3D 図面、エンジニアリング ドキュメント。"
       },
-      "data_annotation": {
-        "title": "データアノテーション",
-        "description": "コンピュータビジョン、NLP、AIパイプラインのための正確なデータラベリングと厳格な品質管理。"
+      {
+        "img": "data_annotation.png",
+        "title": "データの注釈",
+        "description": "画像、テキスト、音声、ビデオの注釈。"
       },
-      "web": {
-        "title": "Web開発",
-        "description": "最新技術を使用したカスタムWebアプリケーションおよびレスポンシブWebサイト。"
+      {
+        "img": "web.jpg",
+        "title": "ウェブ開発",
+        "description": "企業の Web サイト、ダッシュボード、Web アプリ、CMS プラットフォーム。"
       },
-      "mobile": {
-        "title": "モバイルアプリ開発",
-        "description": "ニーズに合わせたクロスプラットフォームおよびネイティブのモバイルアプリ開発。"
-      },
-      "cloud": {
-        "title": "クラウドソリューション",
-        "description": "クラウド移行、DevOps、スケーラブルなクラウドネイティブサービス。"
-      },
-      "security": {
-        "title": "サイバーセキュリティ",
-        "description": "高度なセキュリティ監査とツールでデジタル資産を保護します。"
-      },
-      "ai": {
-        "title": "AI & 自動化",
-        "description": "AI、ML、チャットボット、ワークフロー自動化を備えたスマートソリューション。"
-      },
-      "consulting": {
-        "title": "ITコンサルティング",
-        "description": "ITインフラ、ソフトウェア、運用に関する専門的なアドバイスと戦略。"
-      },
-      "desktop": {
+      {
+        "img": "desktop.jpg",
         "title": "デスクトップ開発",
-        "description": "Windows、macOS、Linux向けの堅牢で高性能なデスクトップアプリケーション。"
+        "description": "ビジネス ツール、社内システム、生産性ソフトウェア。"
       },
-      "ocr_data_entry": {
+      {
+        "img": "ocr_data_entry.png",
         "title": "OCRとデータ入力",
-        "description": "OCRによる文書のデジタル化と、大規模な信頼性の高いデータ入力サービス。"
+        "description": "請求書処理、文書のデジタル化、データ移行。"
       }
-    }
+    ]
   },
   "contact": {
     "header": "お問い合わせ",
