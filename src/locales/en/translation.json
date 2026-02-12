@@ -182,34 +182,46 @@
     "subtitle": "End-to-end technology services designed to accelerate your digital transformation.",
     "cards": [
       {
+        "icon": "ai",
         "img": "ai_ml.png",
         "title": "AI/ML Solutions",
-        "description": "Intelligent systems for automation, analytics and prediction."
+        "shortDescription": "Intelligent systems for automation, analytics and prediction.",
+        "description": "We deliver advanced Artificial Intelligence (AI) and Machine Learning (ML) solutions that help businesses automate processes, extract actionable insights, and make data-driven decisions. Our services include predictive analytics, computer vision, natural language processing (NLP), recommendation systems, and custom AI model development. From automation to intelligent forecasting, we build scalable AI systems tailored to your business needs."
       },
       {
+        "icon": "web",
         "img": "cad.jpg",
         "title": "CAD Development",
-        "description": "CAD tracing, 2D/3D drawings, engineering documentation."
+        "shortDescription": "CAD tracing, 2D/3D drawings, engineering documentation.",
+        "description": "Our CAD development services provide precise 2D and 3D drafting, CAD tracing, technical drawings, and detailed engineering documentation. We support architects, engineers, and construction professionals with high-accuracy designs, digitization of legacy drawings, and production-ready CAD files. Our team ensures compliance with industry standards and delivers scalable drafting solutions for infrastructure and industrial projects."
       },
       {
+        "icon": "mobile",
         "img": "data_annotation.png",
         "title": "Data Annotation",
-        "description": "Image, text, audio, and video annotation."
+        "shortDescription": "Image, text, audio, and video annotation.",
+        "description": "We offer high-quality data annotation services for machine learning and AI training datasets, including image annotation, text labeling, audio transcription, and video tagging. Our accurate and scalable data labeling solutions support computer vision, NLP, autonomous systems, and AI model training. With strict quality control and secure workflows, we help organizations build reliable AI systems powered by clean, structured data."
       },
       {
+        "icon": "web",
         "img": "web.jpg",
         "title": "Web Development",
-        "description": "Corporate websites, dashboards, web apps, CMS platforms."
+        "shortDescription": "Corporate websites, dashboards, web apps, CMS platforms.",
+        "description": "We provide professional web development services including corporate websites, custom web applications, dashboards, and CMS platforms. Our team builds responsive, SEO-friendly, and performance-optimized websites using modern technologies. Whether you need an enterprise web solution, e-commerce platform, or scalable SaaS product, we deliver secure and user-focused digital experiences."
       },
       {
+        "icon": "security",
         "img": "desktop.jpg",
         "title": "Desktop Development",
-        "description": "Business tools, internal systems, productivity software."
+        "shortDescription": "Business tools, internal systems, productivity software.",
+        "description": "Our desktop application development services focus on building secure, high-performance business software, internal systems, and productivity tools. We design and develop cross-platform and Windows-based desktop applications tailored to enterprise workflows. From automation tools to complex business management systems, we create reliable desktop solutions that improve operational efficiency."
       },
       {
+        "icon": "mobile",
         "img": "ocr_data_entry.png",
         "title": "OCR and Data Entry",
-        "description": "Invoice processing, document digitization, data migration."
+        "shortDescription": "Invoice processing, document digitization, data migration.",
+        "description": "We provide OCR (Optical Character Recognition) and data entry services to convert physical documents into structured digital data. Our solutions include invoice processing, document digitization, bulk data migration, and automated text extraction. By combining intelligent OCR technology with quality assurance processes, we help businesses streamline operations, reduce manual workload, and improve data accuracy."
       }
     ]
   },
@@ -228,7 +240,7 @@
         "name": "Seiko Electric Construction",
         "link": "https://seiko-ec.co.jp"
       }
-    ] 
+    ]
   },
   "contact": {
     "header": "Get in Touch",

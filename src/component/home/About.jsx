@@ -43,7 +43,7 @@ const About = () => {
                                 className="flex items-center justify-center text-4xl sm:text-6xl bg-linear-to-b from-[#5C7CFE] to-[#0D00FC] text-transparent bg-clip-text font-bold"
                                 initial={{ opacity: 0, scale: 0 }}
                                 whileInView={{ opacity: 1, scale: 1 }}
-                                transition={{ duration: 0.8, delay: index/2 }}
+                                transition={{ duration: 0.8, delay: index / 2 }}
                                 viewport={{ once: true, amount: 0.2 }}
                             >
                                 {item.value}
@@ -53,7 +53,7 @@ const About = () => {
                                 className="text-xl sm:text-2xl"
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ duration: 0.5, delay: index/2 + 0.5 }}
+                                transition={{ duration: 0.5, delay: index / 2 + 0.5 }}
                                 viewport={{ once: true, amount: 0.2 }}
                             >
                                 {item.label}

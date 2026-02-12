@@ -6,15 +6,6 @@ import web from '../../assets/services/web.svg';
 import mobile from '../../assets/services/mobile.svg';
 import security from '../../assets/services/security.svg';
 
-const services = [
-  { id: 'ai_ml', icon: ai },
-  { id: 'cad', icon: web },
-  { id: 'data_annotation', icon: mobile },
-  { id: 'web', icon: web },
-  { id: 'desktop', icon: security },
-  { id: 'ocr_data_entry', icon: mobile },
-];
-
 const Services = () => {
   const { t } = useTranslation();
 
@@ -31,11 +22,11 @@ const Services = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10">
-        {services.map((service, index) => (
-          <div key={index} className="bg-white hover:bg-blue-900 hover:text-white p-6 md:p-8 rounded-lg shadow-md">
-            <img src={service.icon} alt={t(`services.cards.${service.id}.title`)} className="w-16 h-16 mb-4" />
-            <h3 className="text-xl font-bold">{t(`services.cards.${service.id}.title`)}</h3>
-            <p className="text-sm">{t(`services.cards.${service.id}.description`)}</p>
+        {t("services.cards", { returnObjects: true }).map((service, index) => (
+          <div key={index} className="bg-white hover:bg-blue-900 hover:text-white p-6 md:p-8 rounded-lg shadow-md transition-all hover:scale-110 duration-300">
+            <img src={service.icon === "ai" ? ai : service.icon === "web" ? web : service.icon === "mobile" ? mobile : security} alt={service.title} className="w-16 h-16 mb-4" />
+            <h3 className="text-xl font-bold">{service.title}</h3>
+            <p className="text-sm">{service.description}</p>
           </div>
         ))}
       </div>
