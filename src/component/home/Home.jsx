@@ -5,6 +5,7 @@ import { useTranslation } from "react-i18next";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
 import About from "./About";
+import Clients from "./Clients";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -94,6 +95,7 @@ const Home = () => {
 
       <About />
       <Services />
+      <Clients />
       <Portfolio />
     </div>
   );

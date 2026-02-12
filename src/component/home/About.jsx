@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const About = () => {
     const { t } = useTranslation();
     return (
-        <section className="flex flex-col md:flex-row px-2 sm:px-20 my-15 w-full lg:gap-x-10 gap-y-10">
+        <section className="flex flex-col md:flex-row px-2 sm:px-20 my-25 w-full lg:gap-x-10 gap-y-10">
             <div className="flex-1">
                 <motion.h1
                     className="text-xl sm:text-2xl text-[#0D00FC] font-medium"

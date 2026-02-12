@@ -213,6 +213,23 @@
       }
     ]
   },
+  "clients": {
+    "title": "クライアントからの信頼",
+    "clients": [
+      {
+        "name": "La Entrega",
+        "link": "https://laentrega.jp"
+      },
+      {
+        "name": "Trytec",
+        "link": "https://trytec.co.jp"
+      },
+      {
+        "name": "Seiko Electric Construction",
+        "link": "https://seiko-ec.co.jp"
+      }
+    ]
+  },
   "contact": {
     "header": "お問い合わせ",
     "subtitle": "ご要件をお聞かせください。折り返しご連絡いたします。",
