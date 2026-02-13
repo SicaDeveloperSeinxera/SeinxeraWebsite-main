@@ -237,15 +237,18 @@
     "clients": [
       {
         "name": "La Entrega",
+        "img":"laentrega",
         "link": "https://laentrega.jp"
       },
       {
         "name": "Trytec",
+        "img":"trytec",
         "link": "https://trytec.co.jp"
       },
       {
         "name": "Seiko Electric Construction",
-        "link": "https://seiko-ec.co.jp"
+        "img": "seiko",
+        "link": "https://seiko-denki.co.jp"
       }
     ]
   },

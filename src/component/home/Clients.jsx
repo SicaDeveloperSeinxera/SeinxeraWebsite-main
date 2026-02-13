@@ -1,5 +1,8 @@
 import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
+import seiko from "../../assets/seiko.svg";
+import trytec from "../../assets/trytec.svg";
+import laentrega from "../../assets/laentrega.png";
 
 const Clients = () => {
     const { t } = useTranslation();
@@ -15,7 +18,7 @@ const Clients = () => {
                     target="_blank"
                     whileHover={{y: -10, scale: 1.1}}
                     >
-                        {clients.name}
+                       <img src={clients.img== "seiko"?seiko:clients.img== "trytec"?trytec:clients.img=="laentrega"?laentrega:""} alt={clients.name} />
                     </motion.a>
                 ))}
             </div>

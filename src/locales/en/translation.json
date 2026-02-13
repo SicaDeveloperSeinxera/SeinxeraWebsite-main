@@ -235,18 +235,21 @@
     "title": "Trusted By Clients",
     "clients": [
       {
+        "name": "Seiko Electric Construction",
+        "img": "seiko",
+        "link": "https://seiko-denki.co.jp"
+      },
+      {
         "name": "La Entrega",
+        "img":"laentrega",
         "link": "https://laentrega.jp"
       },
       {
         "name": "Trytec",
+        "img":"trytec",
         "link": "https://trytec.co.jp"
-      },
-      {
-        "name": "Seiko Electric Construction",
-        "img": "seiko",
-        "link": "https://seiko-ec.co.jp"
       }
+      
     ]
   },
   "contact": {
