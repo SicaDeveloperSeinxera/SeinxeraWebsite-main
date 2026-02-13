@@ -182,6 +182,13 @@
     "subtitle": "End-to-end technology services designed to accelerate your digital transformation.",
     "cards": [
       {
+        "icon": "website",
+        "img": "web.jpg",
+        "title": "Web Development",
+        "shortDescription": "Corporate websites, dashboards, web apps, CMS platforms.",
+        "description": "We provide professional web development services including corporate websites, custom web applications, dashboards, and CMS platforms. Our team builds responsive, SEO-friendly, and performance-optimized websites using modern technologies. Whether you need an enterprise web solution, e-commerce platform, or scalable SaaS product, we deliver secure and user-focused digital experiences."
+      },
+      {
         "icon": "ai",
         "img": "ai_ml.png",
         "title": "AI/ML Solutions",
@@ -190,31 +197,30 @@
       },
       {
         "icon": "web",
+        "img": "desktop.jpg",
+        "title": "Desktop Development",
+        "shortDescription": "Business tools, internal systems, productivity software.",
+        "description": "Our desktop application development services focus on building secure, high-performance business software, internal systems, and productivity tools. We design and develop cross-platform and Windows-based desktop applications tailored to enterprise workflows. From automation tools to complex business management systems, we create reliable desktop solutions that improve operational efficiency."
+      },
+      {
+        "icon": "mobile",
+        "img": "mobileapp.jpg",
+        "title": "Mobile Applications",
+        "shortDescription": "Application development for Android and iOS.",
+        "description": "Our mobile development services focus on creating high-quality applications for Android and iOS platforms. We build native and cross-platform mobile apps with seamless user experiences, robust functionality, and modern design. Whether you need a consumer-facing app, enterprise mobile solution, or custom mobile software, we deliver scalable and secure applications that meet your business goals."},
+      {
+        "icon": "security",
         "img": "cad.jpg",
         "title": "CAD Development",
         "shortDescription": "CAD tracing, 2D/3D drawings, engineering documentation.",
         "description": "Our CAD development services provide precise 2D and 3D drafting, CAD tracing, technical drawings, and detailed engineering documentation. We support architects, engineers, and construction professionals with high-accuracy designs, digitization of legacy drawings, and production-ready CAD files. Our team ensures compliance with industry standards and delivers scalable drafting solutions for infrastructure and industrial projects."
       },
       {
-        "icon": "mobile",
+        "icon": "annotation",
         "img": "data_annotation.png",
         "title": "Data Annotation",
         "shortDescription": "Image, text, audio, and video annotation.",
         "description": "We offer high-quality data annotation services for machine learning and AI training datasets, including image annotation, text labeling, audio transcription, and video tagging. Our accurate and scalable data labeling solutions support computer vision, NLP, autonomous systems, and AI model training. With strict quality control and secure workflows, we help organizations build reliable AI systems powered by clean, structured data."
-      },
-      {
-        "icon": "web",
-        "img": "web.jpg",
-        "title": "Web Development",
-        "shortDescription": "Corporate websites, dashboards, web apps, CMS platforms.",
-        "description": "We provide professional web development services including corporate websites, custom web applications, dashboards, and CMS platforms. Our team builds responsive, SEO-friendly, and performance-optimized websites using modern technologies. Whether you need an enterprise web solution, e-commerce platform, or scalable SaaS product, we deliver secure and user-focused digital experiences."
-      },
-      {
-        "icon": "security",
-        "img": "desktop.jpg",
-        "title": "Desktop Development",
-        "shortDescription": "Business tools, internal systems, productivity software.",
-        "description": "Our desktop application development services focus on building secure, high-performance business software, internal systems, and productivity tools. We design and develop cross-platform and Windows-based desktop applications tailored to enterprise workflows. From automation tools to complex business management systems, we create reliable desktop solutions that improve operational efficiency."
       },
       {
         "icon": "mobile",
@@ -238,6 +244,7 @@
       },
       {
         "name": "Seiko Electric Construction",
+        "img": "seiko",
         "link": "https://seiko-ec.co.jp"
       }
     ]
