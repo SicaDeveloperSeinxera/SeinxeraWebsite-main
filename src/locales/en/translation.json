@@ -184,48 +184,48 @@
         "icon": "website",
         "img": "web.jpg",
         "title": "Web Development",
-        "shortDescription": "Corporate websites, dashboards, web apps, CMS platforms.",
+        "shortDescription": "We support corporate websites,web apps, admin screens (dashboards),and CMS construction.",
         "description": "We provide professional web development services including corporate websites, custom web applications, dashboards, and CMS platforms. Our team builds responsive, SEO-friendly, and performance-optimized websites using modern technologies. Whether you need an enterprise web solution, e-commerce platform, or scalable SaaS product, we deliver secure and user-focused digital experiences."
       },
       {
         "icon": "ai",
         "img": "ai_ml.png",
         "title": "AI/ML Solutions",
-        "shortDescription": "Intelligent systems for automation, analytics and prediction.",
+        "shortDescription": "We provide AI/machine learning solutions to support business automation, analysis, and prediction.",
         "description": "We deliver advanced Artificial Intelligence (AI) and Machine Learning (ML) solutions that help businesses automate processes, extract actionable insights, and make data-driven decisions. Our services include predictive analytics, computer vision, natural language processing (NLP), recommendation systems, and custom AI model development. From automation to intelligent forecasting, we build scalable AI systems tailored to your business needs."
       },
       {
         "icon": "web",
         "img": "desktop.jpg",
         "title": "Desktop Development",
-        "shortDescription": "Business tools, internal systems, productivity software.",
+        "shortDescription": "We develop business tools, internal systems, and business efficiency software.",
         "description": "Our desktop application development services focus on building secure, high-performance business software, internal systems, and productivity tools. We design and develop cross-platform and Windows-based desktop applications tailored to enterprise workflows. From automation tools to complex business management systems, we create reliable desktop solutions that improve operational efficiency."
       },
       {
         "icon": "mobile",
         "img": "mobileapp.jpg",
         "title": "Mobile Applications",
-        "shortDescription": "Application development for Android and iOS.",
+        "shortDescription": "We supports Android/iOS app development.",
         "description": "Our mobile development services focus on creating high-quality applications for Android and iOS platforms. We build native and cross-platform mobile apps with seamless user experiences, robust functionality, and modern design. Whether you need a consumer-facing app, enterprise mobile solution, or custom mobile software, we deliver scalable and secure applications that meet your business goals."},
       {
         "icon": "security",
         "img": "cad.jpg",
         "title": "CAD Development",
-        "shortDescription": "CAD tracing, 2D/3D drawings, engineering documentation.",
+        "shortDescription": "We support CAD tracing, drawing creation, and technical document creation.",
         "description": "Our CAD development services provide precise 2D and 3D drafting, CAD tracing, technical drawings, and detailed engineering documentation. We support architects, engineers, and construction professionals with high-accuracy designs, digitization of legacy drawings, and production-ready CAD files. Our team ensures compliance with industry standards and delivers scalable drafting solutions for infrastructure and industrial projects."
       },
       {
         "icon": "annotation",
         "img": "data_annotation.png",
         "title": "Data Annotation",
-        "shortDescription": "Image, text, audio, and video annotation.",
+        "shortDescription": "We handle annotation work for images, text, audio, and video.",
         "description": "We offer high-quality data annotation services for machine learning and AI training datasets, including image annotation, text labeling, audio transcription, and video tagging. Our accurate and scalable data labeling solutions support computer vision, NLP, autonomous systems, and AI model training. With strict quality control and secure workflows, we help organizations build reliable AI systems powered by clean, structured data."
       },
       {
         "icon": "mobile",
         "img": "ocr_data_entry.png",
         "title": "OCR and Data Entry",
-        "shortDescription": "Invoice processing, document digitization, data migration.",
+        "shortDescription": "We handle document processing such as invoices, document digitization (OCR), data entry, and data transfer.",
         "description": "We provide OCR (Optical Character Recognition) and data entry services to convert physical documents into structured digital data. Our solutions include invoice processing, document digitization, bulk data migration, and automated text extraction. By combining intelligent OCR technology with quality assurance processes, we help businesses streamline operations, reduce manual workload, and improve data accuracy."
       }
     ]
