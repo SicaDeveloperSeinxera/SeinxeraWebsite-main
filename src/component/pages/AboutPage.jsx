@@ -43,11 +43,8 @@ const About = () => {
             transition={{ duration: 1 }}
           >
             <h3 className="text-4xl font-bold mb-6 text-primary">{t('about.whoWeAre')}</h3>
-            <p className="text-gray-700 mb-4 leading-relaxed">
+            <p className="text-gray-700 mb-8 leading-relaxed">
               {t('about.p1')}
-            </p>
-            <p className="text-gray-700 mb-4 leading-relaxed">
-              {t('about.p2')}
             </p>
             <Link
               to="/contact"
