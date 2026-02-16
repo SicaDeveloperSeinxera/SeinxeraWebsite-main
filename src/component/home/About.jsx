@@ -25,6 +25,15 @@ const About = () => {
                 >
                     {t("homeAbout.description1")}
                 </motion.p>
+                <motion.p
+                    className="text-lg sm:text-xl"
+                    initial={{ opacity: 0, x: -50 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.8 }}
+                    viewport={{ once: true, amount: 0.2 }}
+                >
+                    {t("homeAbout.description2")}
+                </motion.p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-1 lg:grid-cols-2 flex-1 gap-y-10 md:gap-y-2">
                 {

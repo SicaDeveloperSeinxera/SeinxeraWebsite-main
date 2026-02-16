@@ -93,7 +93,8 @@
   "homeAbout": {
     "title": "WHO WE ARE",
     "subtitle": "Your Strategic Technology Partner",
-    "description1": "SEINXERA is a development brand operated by Innovation Center Nepal (ICN). Based in Nepal, ICN serves as an offshore development partner and development base for a Japanese company (Seiko Electric Manufacturing Co., Ltd.), providing comprehensive support from requirements organization to design, development, testing, and operation. We offer a wide range of services, from web development, mobile/desktop app development, AI/IoT, and cloud-based solutions. Our dedicated team works closely with your Japanese counterparts to provide an optimal development system that prioritizes quality, scalability, and security.",
+    "description1": "SEINXERA is a development brand operated by Innovation Center Nepal (ICN). Based in Nepal, ICN serves as an offshore development partner and development base for a Japanese company (Seiko Electric Manufacturing Co., Ltd.), providing comprehensive support from requirements organization to design, development, testing, and operation. We offer a wide range of services, from web development, mobile/desktop app development, AI/IoT, and cloud-based solutions. ",
+    "description2": "Our dedicated team works closely with your Japanese counterparts to provide an optimal development system that prioritizes quality, scalability, and security.",
     "highlights": [
       {
         "value": "10+",
