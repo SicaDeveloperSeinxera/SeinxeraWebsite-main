@@ -24,28 +24,28 @@
     "button2": "Our Services"
   },
   "portfolio": {
-    "header": "Building the future, One Project at a Time",
+    "header": "Creating the future. One project at a time.",
     "skills": "HTML, CSS, JavaScript, AI, ML",
     "description": "We offer a wide range of portfolio projects to help you achieve your business goals. From web development to intelligent systems, our team delivers exceptional results.",
     "slide1": {
       "title": "Machine Learning",
       "stack": "TensorFlow, PyTorch, Scikit-Learn, Keras",
-      "description": "Our machine learning services will help you uncover hidden insights and make predictions about your customers' behavior. We can help you build a custom model, integrate it with your existing infrastructure, and deploy it in a production-ready environment."
+      "description": "Our machine learning services visualize trends and issues from data and support the development of models for prediction, classification, anomaly detection, etc.We provide consistent support from PoC (proof of concept) to implementation in a production environment and integration with existing systems."
     },
     "slide2": {
       "title": "LaEntrega Co., Ltd",
       "stack": "WordPress",
-      "description": "The company's representative director is Arita Kazuto. LA ENTREGA has a wide range of business activities, including import/export, consulting for market entry, e-commerce, advertising, restaurant operation, and international cultural exchange. The company also offers services for foreign tourists and provides management consulting. As of January 8, 2025, its head office is located in Chuo-ku, Fukuoka."
+      "description": "We support the creation of training data required for machine learning and computer vision development through annotation of images, videos, audio, and text.We handle everything from work design (guideline creation) to quality control, ensuring both accuracy and delivery deadlines."
     },
     "slide3": {
       "title": "Image, Video and Audio Annotation",
       "stack": "Annotation",
-      "description": "Image, video and audio annotation services help you prepare data for machine learning and computer vision projects. Our team of experts annotates your data with high accuracy and speed."
+      "description": "We handle tracing of drawings (paper/PDF → CAD), creation of 2D/3D drawings, and correction and maintenance of drawings. By maintaining data in accordance with design rules, we provide drawings that can be used directly at the design and manufacturing sites."
     },
     "slide4": {
       "title": "CAD Tracing",
-      "stack": "We offer a wide range of portfolio projects to help you achieve your business goals. From web development to intelligent systems, our team delivers exceptional results.",
-      "description": "We offer a wide range of portfolio projects to help you achieve your business goals. From web development to intelligent systems, our team delivers exceptional results."
+      "stack": "CAD tracing, 2D/3D drawings, engineering documentation.",
+      "description": "We built a corporate website using WordPress for a company that operates an import/export related business. We adjusted the design, designed the page structure, and created an easy-to-update management screen, improving the ease of information dissemination and operation."
     }
   },
   "homeServices": {
@@ -126,7 +126,7 @@
       "title": "Company Information",
       "company": {
         "label": "Company Name",
-        "value": "INNOVATION CERNTER NEPAL PVT LTD"
+        "value": "INNOVATION CEN  TER NEPAL PVT LTD"
       },
       "brand": {
         "label": "Brand Name",
@@ -206,7 +206,8 @@
         "img": "mobileapp.jpg",
         "title": "Mobile Applications",
         "shortDescription": "We supports Android/iOS app development.",
-        "description": "Our mobile development services focus on creating high-quality applications for Android and iOS platforms. We build native and cross-platform mobile apps with seamless user experiences, robust functionality, and modern design. Whether you need a consumer-facing app, enterprise mobile solution, or custom mobile software, we deliver scalable and secure applications that meet your business goals."},
+        "description": "Our mobile development services focus on creating high-quality applications for Android and iOS platforms. We build native and cross-platform mobile apps with seamless user experiences, robust functionality, and modern design. Whether you need a consumer-facing app, enterprise mobile solution, or custom mobile software, we deliver scalable and secure applications that meet your business goals."
+      },
       {
         "icon": "security",
         "img": "cad.jpg",
@@ -231,7 +232,7 @@
     ]
   },
   "clients": {
-    "title": "Trusted By Clients",
+    "title": "Transaction history (partial list)",
     "clients": [
       {
         "name": "Seiko Electric Construction",
@@ -240,15 +241,14 @@
       },
       {
         "name": "La Entrega",
-        "img":"laentrega",
+        "img": "laentrega",
         "link": "https://laentrega.jp"
       },
       {
         "name": "Trytec",
-        "img":"trytec",
+        "img": "trytec",
         "link": "https://trytec.co.jp"
       }
-      
     ]
   },
   "contact": {
