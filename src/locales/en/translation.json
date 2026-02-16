@@ -334,7 +334,7 @@
     }
   },
   "footer": {
-    "ctaTitle": "Take the first step towards a digitally engineered tomorrow",
+    "ctaTitle": "Let's take the next step together with the power of digital.",
     "ctaButton": "Get In Touch",
     "sections": {
       "navigation": "NAVIGATION",
@@ -342,13 +342,13 @@
       "legal": "LEGAL"
     },
     "whatWeDo": {
-      "application": "Application Services",
+      "application": "Application Development",
       "cloud": "Cloud & Infrastructure",
       "cybersecurity": "Cybersecurity",
-      "data": "Data & Analytics",
-      "digitalEngineering": "Digital Engineering Services",
-      "automation": "Intelligent Automation",
-      "quality": "Quality Engineering"
+      "data": "Data Analysis & Visualization",
+      "digitalEngineering": "Digital Engineering",
+      "automation": "Business Automation",
+      "quality": "Quality Assurance (QA)"
     },
     "legal": {
       "privacy": "Privacy Policy",

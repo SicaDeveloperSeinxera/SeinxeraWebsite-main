@@ -336,7 +336,7 @@
     }
   },
   "footer": {
-    "ctaTitle": "デジタルエンジニアリングされた明日への第一歩を踏み出しましょう",
+    "ctaTitle": "デジタルの力で、次の一歩を一緒に踏み出しましょう。",
     "ctaButton": "お問い合わせ",
     "sections": {
       "navigation": "ナビゲーション",
@@ -344,13 +344,13 @@
       "legal": "法的情報"
     },
     "whatWeDo": {
-      "application": "アプリケーションサービス",
+      "application": "アプリケーション開発",
       "cloud": "クラウド＆インフラストラクチャ",
       "cybersecurity": "サイバーセキュリティ",
-      "data": "データ＆アナリティクス",
-      "digitalEngineering": "デジタルエンジニアリングサービス",
-      "automation": "インテリジェントオートメーション",
-      "quality": "品質エンジニアリング"
+      "data": "データ分析・可視化",
+      "digitalEngineering": "デジタルエンジニアリング",
+      "automation": "業務自動化",
+      "quality": "品質保証（QA）"
     },
     "legal": {
       "privacy": "プライバシーポリシー",
