@@ -19,7 +19,6 @@
     "for": "for",
     "title": "Changing the Life of Humanity",
     "subtitle": "Complete support from requirements organization to operation.",
-    "description": "Accelerating development for Japanese companies at their base in Nepal.",
     "button1": "Get In Touch",
     "button2": "Our Services"
   },
@@ -93,7 +92,7 @@
   "homeAbout": {
     "title": "WHO WE ARE",
     "subtitle": "Your Strategic Technology Partner",
-    "description1": "SEINXERA is a development brand operated by Innovation Center Nepal (ICN). Based in Nepal, ICN serves as an offshore development partner and development base for a Japanese company (Seiko Electric Manufacturing Co., Ltd.), providing comprehensive support from requirements organization to design, development, testing, and operation. We offer a wide range of services, from web development, mobile/desktop app development, AI/IoT, and cloud-based solutions. ",
+    "description1": "SEINXERA is a development brand operated by Innovation Center Nepal (ICN). Based in Nepal, ICN serves as an offshore development partner and development base for a Japanese company (Seiko Electric Co., Ltd.), providing comprehensive support from requirements organization to design, development, testing, and operation. We offer a wide range of services, from web development, mobile/desktop app development, AI/IoT, and cloud-based solutions. ",
     "description2": "Our dedicated team works closely with your Japanese counterparts to provide an optimal development system that prioritizes quality, scalability, and security.",
     "highlights": [
       {
@@ -127,7 +126,7 @@
       "title": "Company Information",
       "company": {
         "label": "Company Name",
-        "value": "INNOVATION CEN  TER NEPAL PVT LTD"
+        "value": "INNOVATION CENTER NEPAL PVT LTD"
       },
       "brand": {
         "label": "Brand Name",
@@ -255,7 +254,7 @@
   "contact": {
     "header": "Get in Touch",
     "subtitle": "Tell us what you're looking for. We'll get back to you.",
-    "cooperate": "Partner with Us",
+    "cooperate": "Access",
     "address": "Tarakeshwar-10, Kathmandu, Nepal",
     "labels": {
       "fullName": "Full Name",
