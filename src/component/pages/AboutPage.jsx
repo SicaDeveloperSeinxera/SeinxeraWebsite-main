@@ -43,8 +43,11 @@ const About = () => {
             transition={{ duration: 1 }}
           >
             <h3 className="text-4xl font-bold mb-6 text-primary">{t('about.whoWeAre')}</h3>
-            <p className="text-gray-700 mb-8 leading-relaxed">
+            <p className="text-gray-700 mb-4 leading-relaxed">
               {t('about.p1')}
+            </p>
+            <p className="text-gray-700 mb-4 leading-relaxed">
+              {t('about.p2')}
             </p>
             <Link
               to="/contact"
@@ -85,7 +88,7 @@ const About = () => {
         <div className="flex flex-col xl:flex-row mt-7 border-2 border-gray-200 rounded-xl overflow-clip shadow-xl w-full">
 
           {/**Image Section*/}
-          <div className="relative bg-[url('/city-background.jpg')] w-full h-110 sm:h-150 md:h-180 xl:h-auto bg-cover bg-no-repeat xl:w-2/5 ">
+          <div className="relative bg-[url('/city-backgrounds.jpg')] w-full h-110 sm:h-150 md:h-180 xl:h-auto bg-cover bg-no-repeat xl:w-2/5 ">
             <div className="absolute bottom-4 left-4 flex items-center">
               <img
                 className="w-22.5 h-22.5 shrink-0 -ml-2 lg:ml-0"

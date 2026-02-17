@@ -15,11 +15,11 @@
     }
   },
   "hero": {
-    "heading": "AI & Software Solutions",
+    "heading": "Continuing to create products that change the way people live through technology",
     "for": "for",
     "title": "Changing the Life of Humanity",
-    "subtitle": "One Innovation at a Time",
-    "description": "We design, develop, and scale web applications that help companies grow faster.",
+    "subtitle": "Complete support from requirements organization to operation.",
+    "description": "Accelerating development for Japanese companies at their base in Nepal.",
     "button1": "Get In Touch",
     "button2": "Our Services"
   },
@@ -116,12 +116,13 @@
   },
   "about": {
     "title": "About Us",
-    "tagline": "Empowering ideas through technology. We are a passionate team delivering innovative digital solutions.",
+    "tagline": "We use technology to give shape to ideas and take on the challenge of creating products that improve people's lives.",
     "whoWeAre": "Who We Are",
-    "p1": "SEINXERA is a development brand operated by Innovation Center Nepal (ICN). Based in Nepal, ICN serves as an offshore development partner and development base for a Japanese company (Seiko Electric Manufacturing Co., Ltd.), providing comprehensive support from requirements organization to design, development, testing, and operation. We offer a wide range of services, from web development, mobile/desktop app development, AI/IoT, and cloud-based solutions. Our dedicated team works closely with your Japanese counterparts to provide an optimal development system that prioritizes quality, scalability, and security.",
+    "p1": "SEINXERA is a development brand operated by Innovation Center Nepal (ICN). Based in Nepal, ICN serves as an offshore development partner and development base for a Japanese company (Seiko Electric Manufacturing Co., Ltd.), providing comprehensive support from requirements organization to design, development, testing, and operation. We offer a wide range of services, from web development, mobile/desktop app development, AI/IoT, and cloud-based solutions. ",
+    "p2":"Our dedicated team works closely with your Japanese counterparts to provide an optimal development system that prioritizes quality, scalability, and security.",
     "contactCta": "Contact Us",
     "missionTitle": "Our Mission",
-    "missionBody": "Our mission is to create products and services that don't just serve — they transform. We aim to build solutions that impact lives, empower communities, and spark progress.\n\nBy developing innovative systems and embracing continuous innovation, we push boundaries and challenge the status quo. We believe in solving real problems with technology, creativity, and purpose — crafting tools that make a difference today and shape a better tomorrow.\n\nEvery challenge we take on is an opportunity to deliver lasting impact. Through our commitment to excellence, agility, and innovation, we strive to turn bold ideas into reality.",
+    "missionBody": "Our mission is to develop products that change people's lives and deliver value to society. To achieve this, we implement our customers' ideas through software development and the use of AI, and continuously improve them with an eye toward operation.\n\nWe place importance on both quality and speed, and provide comprehensive support from requirements organization to design, development, testing, and operation.\n\nEven in these rapidly changing times, we contribute to our customers' business growth with our reliable technology and teamwork.",
     "information": {
       "title": "Company Information",
       "company": {

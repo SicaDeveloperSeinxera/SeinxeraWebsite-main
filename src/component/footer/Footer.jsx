@@ -1,4 +1,5 @@
 import "react";
+import { FaXTwitter } from "react-icons/fa6";
 import {
   FaLinkedin,
   FaTwitter,
@@ -43,7 +44,8 @@ export default function Footer() {
                 to="#"
                 className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors"
               >
-                <FaTwitter className="w-5 h-5" />
+                <FaXTwitter className="w-5 h-5"/>
+                
               </Link>
               <a
                 href="https://www.instagram.com/seinxera/profilecard/?igsh=MXNrc2ZuM3RqMnVnMA=="
