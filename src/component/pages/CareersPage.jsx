@@ -43,9 +43,9 @@ const Careers = () => {
             <h1 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
               {t("careers.intro.title")}
             </h1>
-            <button className="bg-blue-900 rounded-md px-6 py-2 text-white hover:bg-blue-800 mt-4">
+            {/*<button className="bg-blue-900 rounded-md px-6 py-2 text-white hover:bg-blue-800 mt-4">
               {t("careers.intro.cta")}
-            </button>
+            </button>*/}
           </div>
         </div>
 
@@ -61,7 +61,7 @@ const Careers = () => {
               <h2 className="text-2xl md:text-3xl font-bold text-orange-600">
                 {t("careers.slides.first.title")}
               </h2>
-              <p className="mt-4 text-gray-700 text-base leading-relaxed">
+              <p className="mt-4 text-gray-700 text-base leading-relaxed" style={{whiteSpace: "pre-line"}}>
                 {t("careers.slides.first.text")}
               </p>
             </div>
@@ -71,7 +71,7 @@ const Careers = () => {
               <h2 className="text-2xl md:text-3xl font-bold text-orange-600">
                 {t("careers.slides.second.title")}
               </h2>
-              <p className="mt-4 text-gray-700 text-base leading-relaxed">
+              <p className="mt-4 text-gray-700 text-base leading-relaxed" style={{whiteSpace: "pre-line"}}>
                 {t("careers.slides.second.text")}
               </p>
             </div>

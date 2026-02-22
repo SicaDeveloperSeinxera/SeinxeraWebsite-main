@@ -15,10 +15,9 @@
     }
   },
   "hero": {
-    "heading": "Continuing to create products that change the way people live through technology",
-    "for": "for",
-    "title": "Changing the Life of Humanity",
-    "subtitle": "Complete support from requirements organization to operation.",
+    "heading": "Continuously creating products that transform human life through technology",
+    "title": "Accelerating development for Japanese companies from Nepal",
+    "subtitle": "Complete support from requirements organization to operation",
     "button1": "Get In Touch",
     "button2": "Our Services"
   },
@@ -185,49 +184,49 @@
         "img": "web.jpg",
         "title": "Web Development",
         "shortDescription": "We support corporate websites,web apps, admin screens (dashboards),and CMS construction.",
-        "description": "We provide professional web development services including corporate websites, custom web applications, dashboards, and CMS platforms. Our team builds responsive, SEO-friendly, and performance-optimized websites using modern technologies. Whether you need an enterprise web solution, e-commerce platform, or scalable SaaS product, we deliver secure and user-focused digital experiences."
+        "description": "We support the development of corporate websites, web applications, admin panels (dashboards), and CMS platforms. From requirements definition and design to development, testing, and operations, we provide end-to-end support with a strong focus on maintainable architecture. We also implement performance optimization, basic SEO setup, and mobile responsiveness to ensure results even after launch. Based on your goals and operational structure, we propose the most suitable technology stack and project schedule."
       },
       {
         "icon": "ai",
         "img": "ai_ml.png",
         "title": "AI/ML Solutions",
         "shortDescription": "We provide AI/machine learning solutions to support business automation, analysis, and prediction.",
-        "description": "We deliver advanced Artificial Intelligence (AI) and Machine Learning (ML) solutions that help businesses automate processes, extract actionable insights, and make data-driven decisions. Our services include predictive analytics, computer vision, natural language processing (NLP), recommendation systems, and custom AI model development. From automation to intelligent forecasting, we build scalable AI systems tailored to your business needs."
+        "description": "We design and develop AI and machine learning models for practical business use cases such as prediction, classification, anomaly detection, and recommendation systems. Our support covers everything from data organization and preprocessing to PoC (proof of concept), production deployment, and integration with existing systems. Beyond model accuracy, we focus on solutions that can be effectively operated in real-world environments—incorporating monitoring, maintenance, and continuous improvement (retraining). Based on your objectives and constraints, we propose practical and realistic approaches without unnecessary complexity."
       },
       {
         "icon": "web",
         "img": "desktop.jpg",
         "title": "Desktop Development",
         "shortDescription": "We develop business tools, internal systems, and business efficiency software.",
-        "description": "Our desktop application development services focus on building secure, high-performance business software, internal systems, and productivity tools. We design and develop cross-platform and Windows-based desktop applications tailored to enterprise workflows. From automation tools to complex business management systems, we create reliable desktop solutions that improve operational efficiency."
+        "description": "We develop desktop applications that streamline internal business operations. Designed to align with your on-site workflows, our solutions help reduce input errors, shorten processing time, and promote standardization. We prioritize stability, security, and scalability, while establishing an easy-to-manage update and maintenance structure. From small utility tools to cross-departmental business applications, we support step-by-step improvements tailored to your needs."
       },
       {
         "icon": "mobile",
         "img": "mobileapp.jpg",
         "title": "Mobile Applications",
         "shortDescription": "We supports Android/iOS app development.",
-        "description": "Our mobile development services focus on creating high-quality applications for Android and iOS platforms. We build native and cross-platform mobile apps with seamless user experiences, robust functionality, and modern design. Whether you need a consumer-facing app, enterprise mobile solution, or custom mobile software, we deliver scalable and secure applications that meet your business goals."
+        "description": "We design and develop mobile applications for iOS and Android. Supporting both native and cross-platform frameworks (e.g., Flutter), we select the most suitable approach based on your requirements and budget. Our development covers everything needed for real-world operation, including UI/UX design, authentication, push notifications, API integration, and admin panels. With a focus on long-term maintenance and post-launch improvements, we help deliver continuous value even after release to the app stores."
       },
       {
         "icon": "security",
         "img": "cad.jpg",
         "title": "CAD Development",
         "shortDescription": "We support CAD tracing, drawing creation, and technical document creation.",
-        "description": "Our CAD development services provide precise 2D and 3D drafting, CAD tracing, technical drawings, and detailed engineering documentation. We support architects, engineers, and construction professionals with high-accuracy designs, digitization of legacy drawings, and production-ready CAD files. Our team ensures compliance with industry standards and delivers scalable drafting solutions for infrastructure and industrial projects."
+        "description": "We provide CAD services including tracing (paper/PDF to CAD), creating 2D and 3D drawings, and revising or organizing existing drawings. Deliverables are provided in formats ready for immediate use on design and manufacturing sites, including organizing existing drawings and component diagrams. By adhering to rules such as layers, dimensions, and drawing frames, we ensure consistent quality. Our system can handle large-scale projects, supporting both timely delivery and high accuracy."
       },
       {
         "icon": "annotation",
         "img": "data_annotation.png",
         "title": "Data Annotation",
         "shortDescription": "We handle annotation work for images, text, audio, and video.",
-        "description": "We offer high-quality data annotation services for machine learning and AI training datasets, including image annotation, text labeling, audio transcription, and video tagging. Our accurate and scalable data labeling solutions support computer vision, NLP, autonomous systems, and AI model training. With strict quality control and secure workflows, we help organizations build reliable AI systems powered by clean, structured data."
+        "description": "We provide annotation services for images, text, audio, and video. From task design (label definition and guideline creation) to operations and quality management, we offer end-to-end support. Quality processes such as double-checking and sampling inspections are designed according to your requirements. We reliably deliver the training data needed for machine learning and computer vision development."
       },
       {
         "icon": "mobile",
         "img": "ocr_data_entry.png",
         "title": "OCR and Data Entry",
         "shortDescription": "We handle document processing such as invoices, document digitization (OCR), data entry, and data transfer.",
-        "description": "We provide OCR (Optical Character Recognition) and data entry services to convert physical documents into structured digital data. Our solutions include invoice processing, document digitization, bulk data migration, and automated text extraction. By combining intelligent OCR technology with quality assurance processes, we help businesses streamline operations, reduce manual workload, and improve data accuracy."
+        "description": "We support document digitization (OCR) and data entry. Documents such as invoices, application forms, and ledgers are converted into data and organized for easy search and aggregation. By establishing input rules and quality check systems, we ensure both accuracy and speed. Depending on your workflow, we also handle CSV/Excel formatting and data preparation for system migration."
       }
     ]
   },
@@ -309,7 +308,7 @@
   },
   "careers": {
     "intro": {
-      "title": "Discover a career where your ideas matter, your growth is supported, and your work makes a difference.",
+      "title": "Why not grow your skills and career in an environment that encourages challenges?",
       "cta": "Explore Jobs"
     },
     "card": {
@@ -319,11 +318,11 @@
     "slides": {
       "first": {
         "title": "Internship Program",
-        "text": "Our internship program is designed for passionate learners who want to grow their skills, gain real-world experience, and explore career paths in a professional environment. Over the course of 3 months, interns will collaborate on real projects, receive mentorship, and develop hands-on expertise in their chosen field."
+        "text": "Our internship program allows you to develop your skills and learn how development projects are managed through hands-on experience.\nDuring the program, you will participate in real projects and gain practical expertise in your chosen field. We emphasize not just “learning,” but also the experience of producing tangible results."
       },
       "second": {
         "title": "Career Growth",
-        "text": "Every team member has a development plan with initiatives aimed at improving skills and embracing innovation. As we grow rapidly, our development plans stay adaptive and ensure our workforce stays best-in-class with ability, aspiration, and commitment."
+        "text": "We value the growth of each team member.\nWe provide learning opportunities that support skill development and the challenge of new technologies, and we work together to create growth plans tailored to individual goals.\nOur environment allows you to gradually expand your responsibilities according to your experience, enabling steady progress through hands-on work."
       }
     },
     "join": {

@@ -11,7 +11,7 @@ const Services = () => {
       <div className="grid grid-cols-2 lg:grid-cols-3 w-full gap-1 sm:gap-4 md:gap-6 lg:gap-5 mt-8 sm:px-[5%]">
         {t("services.cards", { returnObjects: true }).map((cards, index) => {
           return (
-            <>
+            <div>
               <motion.div
                 initial={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
                 whileInView={{ opacity: 1, x: 0 }}
@@ -33,7 +33,7 @@ const Services = () => {
               <motion.div
                 initial={{ opacity: 0, x: (index + 2) % 3 === 0 ? 0 : index % 3 === 0 ? -50 : 50, scale: (index + 2) % 3 === 0 ? 0.8 : 1 }}
                 whileInView={{ opacity: 1, x: 0, scale: 1 }}
-                whileHover={{ scale: 1.03 }}
+                whileHover={{ scale: 1.02 }}
                 transition={{
                   opacity: { duration: 0.5, delay: 0.2 },
                   x: { duration: 0.5, delay: 0.2 },
@@ -47,8 +47,7 @@ const Services = () => {
                 <h3 className="text-xl sm:text-3xl md:text-4xl font-bold">{cards.title}</h3>
                 <p className="text-xs sm:text-sm md:text-[15px]">{cards.shortDescription}</p>
               </motion.div>
-            </>
-          )
+            </div>)
         })
         }
       </div>

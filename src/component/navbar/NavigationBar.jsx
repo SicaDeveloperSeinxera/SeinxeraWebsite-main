@@ -6,6 +6,7 @@ import { AiOutlineMenuFold } from "react-icons/ai";
 import { FaArrowRightFromBracket } from "react-icons/fa6";
 import globalIcon from "../../assets/global-icon-light.png"; // Assuming you have a global icon
 import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 
 const NavigationBar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,9 +38,9 @@ const NavigationBar = () => {
   }, [isGlobalOpen]);
 
   return (
-    <nav className="bg-gray-800 shadow-lg sticky top-0 z-50">
+    <nav className="bg-gray-800 shadow-lg sticky top-0 z-50 h-[13vh]">
       <div className="max-w-full mx-auto px-8 ">
-        <div className="flex justify-between items-center py-0">
+        <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="shrink-0 ">
             <Link to="/">
@@ -47,7 +48,7 @@ const NavigationBar = () => {
             </Link>
           </div>
 
-          <div className="flex gap-8 md:gap-6">
+          <div className="flex gap-4 sm:gap-8 md:gap-6">
 
             {/* Desktop Links */}
             <div className="hidden md:flex items-center justify-center gap-8 md:gap-4 text-white text-sm font-semibold">
@@ -106,7 +107,7 @@ const NavigationBar = () => {
               </button>
 
               {isGlobalOpen && (
-                <div className="absolute top-18 right-0 bg-gray-600 p-4 rounded-md shadow-md z-50 text-white font-bold">
+                <div className="absolute top-18 right-0 bg-gray-800 p-4 rounded-md shadow-md z-50 text-white font-bold">
                   <button
                     onClick={() => changeLanguage("en")}
                     className="block hover:text-blue-300 transition text-nowrap"
@@ -124,56 +125,59 @@ const NavigationBar = () => {
             </div>
           </div>
         </div>
-
-        {/* Mobile Menu */}
-        {isOpen && (
-          <div className="md:hidden  bg-primary  rounded-b-md py-4 text-white space-y-3 font-semibold">
-            <div className="bg-white w-full h-0.5"></div>
-            <Link
-              to="/"
-              onClick={toggleMenu}
-              className="block hover:text-blue-300"
-            >
-              {t("nav.home")}
-            </Link>
-            <Link
-              to="/about"
-              onClick={toggleMenu}
-              className="block hover:text-blue-300"
-            >
-              {t("nav.about")}
-            </Link>
-            <Link
-              to="/service"
-              onClick={toggleMenu}
-              className="block hover:text-blue-300"
-            >
-              {t("nav.services")}
-            </Link>
-            <Link
-              to="/career"
-              onClick={toggleMenu}
-              className="block hover:text-blue-300"
-            >
-              {t("nav.careers")}
-            </Link>
-            <Link
-              to="/team"
-              onClick={toggleMenu}
-              className="block hover:text-blue-300"
-            >
-              {t("nav.teams")}
-            </Link>
-            <Link
-              to="/contact"
-              onClick={toggleMenu}
-              className="block hover:text-blue-300"
-            >
-              {t("nav.contact")}
-            </Link>
-          </div>
-        )}
       </div>
+      {/* Mobile Menu */}
+      {isOpen && (
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.3 }}
+          className="absolute md:hidden  bg-gray-800  rounded-b-md py-4 text-white space-y-3 font-semibold w-full top-[13vh] left-0 px-10">
+          <div className="bg-white w-full h-0.5"></div>
+          <Link
+            to="/"
+            onClick={toggleMenu}
+            className="block hover:text-blue-300"
+          >
+            {t("nav.home")}
+          </Link>
+          <Link
+            to="/about"
+            onClick={toggleMenu}
+            className="block hover:text-blue-300"
+          >
+            {t("nav.about")}
+          </Link>
+          <Link
+            to="/service"
+            onClick={toggleMenu}
+            className="block hover:text-blue-300"
+          >
+            {t("nav.services")}
+          </Link>
+          <Link
+            to="/career"
+            onClick={toggleMenu}
+            className="block hover:text-blue-300"
+          >
+            {t("nav.careers")}
+          </Link>
+          <Link
+            to="/team"
+            onClick={toggleMenu}
+            className="block hover:text-blue-300"
+          >
+            {t("nav.teams")}
+          </Link>
+          <Link
+            to="/contact"
+            onClick={toggleMenu}
+            className="block hover:text-blue-300"
+          >
+            {t("nav.contact")}
+          </Link>
+        </motion.div>
+      )}
     </nav >
   );
 };

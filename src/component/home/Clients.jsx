@@ -13,10 +13,10 @@ const Clients = () => {
                 {t("clients.clients", { returnObjects: true }).map((clients, index) => (
                     <motion.a
                         href={`${clients.link}`}
-                        className="flex px-4 max-w-34.5 sm:max-w-45 sm:px-6 py-1.5 sm:py-2.5 sm:text-xl md:text-2xl lg:text-3xl font-bold md:py-3.5 lg:py-5 md:px-8 lg:px-10 bg-gray-200 rounded-xl md:max-w-56 lg:max-w-70 items-center justify-center"
+                        className="flex px-4 max-w-26 sm:max-w-45 sm:px-6 py-1.5 sm:py-2.5 sm:text-xl md:text-2xl lg:text-3xl font-bold md:py-3.5 lg:py-5 md:px-8 lg:px-10 bg-gray-200 rounded-xl md:max-w-56 lg:max-w-70 items-center justify-center shrink-0"
                         key={index}
                         target="_blank"
-                        whileHover={{ y: -10, scale: 1.1 }}
+                        whileHover={{ y: -5, scale: 1.08, transition: { duration: 0.1 } }}
                     >
                        <img src={clients.img== "seiko"?seiko:clients.img== "trytec"?trytec:clients.img=="laentrega"?laentrega:""} alt={clients.name} />
                     </motion.a>
