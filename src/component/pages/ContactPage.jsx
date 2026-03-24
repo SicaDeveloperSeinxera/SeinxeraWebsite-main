@@ -178,7 +178,6 @@ const Contact = () => {
                 name="date"
                 value={new Date().toLocaleDateString()}
               />
-
               {/* Rest of your form remains the same */}
               <div className="flex items-start gap-2">
                 <input
@@ -191,7 +190,6 @@ const Contact = () => {
                   {t("contact.policyConsent")}
                 </label>
               </div>
-
               <button
                 type="submit"
                 className="w-full bg-blue-800 hover:bg-blue-900 text-white font-semibold py-2 rounded-md transition-all duration-300"
