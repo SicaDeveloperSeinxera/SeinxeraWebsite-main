@@ -6,6 +6,7 @@ import Footer from "./component/footer/Footer";
 import ContactPage from "./component/pages/ContactPage";
 import ServicesPage from "./component/pages/ServicesPage";
 import TeamsPage from "./component/pages/TeamsPage";
+import PrivacyPolicyPage from "./component/pages/PrivacyPolicyPage";
 import NavigationBar from "./component/navbar/NavigationBar";
 import {useTranslation}  from "react-i18next";
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/career" element={<CareersPage />} />
         <Route path="/team" element={<TeamsPage />} />
+        <Route path="/privacy" element={<PrivacyPolicyPage />} />
       </Routes>
 
       <Footer />

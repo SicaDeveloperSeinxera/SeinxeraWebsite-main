@@ -203,5 +203,4 @@ const Contact = () => {
     </PageTransition>
   );
 };
-
 export default Contact;

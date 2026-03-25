@@ -84,39 +84,39 @@ export default function Footer() {
             <nav className="space-y-3">
               <Link
                 to="/"
-                className="block text-orange-400 hover:text-orange-300 transition-colors"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
               >
                 {t("nav.home")}
               </Link>
 
               <Link
                 to="/about"
-                className="block text-gray-300 hover:text-white transition-colors"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
               >
                 {t("nav.about")}
               </Link>
               <Link
                 to="/service"
-                className="block text-gray-300 hover:text-white transition-colors"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
               >
                 {t("nav.services")}
               </Link>
               <Link
                 to="/career"
-                className="block text-gray-300 hover:text-white transition-colors"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
               >
                 {t("nav.careers")}
               </Link>
               <Link
                 to="/team"
-                className="block text-gray-300 hover:text-white transition-colors"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
               >
                 {t("nav.teams")}
               </Link>
 
               <Link
                 to="/contact"
-                className="block text-gray-300 hover:text-white transition-colors"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
               >
                 {t("nav.contact")}
               </Link>
@@ -129,37 +129,21 @@ export default function Footer() {
               {t("footer.sections.whatWeDo")}
             </h3>
             <nav className="space-y-3">
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors"
-              >
+              <p className="block font-normal text-gray-300 ">
                 {t("footer.whatWeDo.application")}
-              </Link>
-
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors"
-              >
+              </p>
+              <p className="block font-normal text-gray-300 ">
                 {t("footer.whatWeDo.data")}
-              </Link>
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors"
-              >
+              </p>
+              <p className="block font-normal text-gray-300 ">
                 {t("footer.whatWeDo.digitalEngineering")}
-              </Link>
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors"
-              >
+              </p>
+              <p className="block font-normal text-gray-300 ">
                 {t("footer.whatWeDo.automation")}
-              </Link>
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors"
-              >
+              </p>
+              <p className="block font-normal text-gray-300 ">
                 {t("footer.whatWeDo.quality")}
-              </Link>
+              </p>
             </nav>
           </div>
 
@@ -170,12 +154,11 @@ export default function Footer() {
             </h3>
             <nav className="space-y-3">
               <Link
-                to="#"
+                to="/privacy"
                 className="block text-gray-300 hover:text-white transition-colors"
               >
                 {t("footer.legal.privacy")}
               </Link>
-             
             </nav>
           </div>
         </div>

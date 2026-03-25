@@ -117,7 +117,7 @@
     "tagline": "We use technology to give shape to ideas and take on the challenge of creating products that improve people's lives.",
     "whoWeAre": "Who We Are",
     "p1": "SEINXERA is a development brand operated by Innovation Center Nepal (ICN). Based in Nepal, ICN serves as an offshore development partner and development base for a Japanese company (Seiko Electric Manufacturing Co., Ltd.), providing comprehensive support from requirements organization to design, development, testing, and operation. We offer a wide range of services, from web development, mobile/desktop app development, AI/IoT, and cloud-based solutions. ",
-    "p2":"Our dedicated team works closely with your Japanese counterparts to provide an optimal development system that prioritizes quality, scalability, and security.",
+    "p2": "Our dedicated team works closely with your Japanese counterparts to provide an optimal development system that prioritizes quality, scalability, and security.",
     "contactCta": "Contact Us",
     "missionTitle": "Our Mission",
     "missionBody": "Our mission is to develop products that change people's lives and deliver value to society. To achieve this, we implement our customers' ideas through software development and the use of AI, and continuously improve them with an eye toward operation.\n\nWe place importance on both quality and speed, and provide comprehensive support from requirements organization to design, development, testing, and operation.\n\nEven in these rapidly changing times, we contribute to our customers' business growth with our reliable technology and teamwork.",
@@ -354,5 +354,73 @@
       "terms": "Terms of Use"
     },
     "copyright": "SEINXERA. All Rights Reserved."
+  },
+  "PrivacyPolicy": {
+    "heading": "Regarding the Handling of Personal Information",
+    "description": "Our company considers compliance with the Personal Information Protection Act and other relevant laws and regulations concerning the protection of personal information to be fundamental to our business activities and a social responsibility. We will adhere to the basic policy outlined below and strive for continuous improvement.",
+    "points": [
+      {
+        "heading": "Personal Information",
+        "description": {
+          "text": "Personal information refers to information that can identify a customer. This includes information such as the customer's name, telephone number, email address, address, and place of employment, and means information that can identify an individual customer through one or more combinations of these pieces of information.",
+          "points": []
+        }
+      },
+      {
+        "heading": "Purpose of use of personal information",
+        "description": {
+          "text": "Our company will handle personal information received from customers only to the extent necessary to achieve the following purposes, except when we have obtained the customer's consent or when it is treated as an exception by law. Furthermore, we will not use or provide to third parties any personal information for purposes other than appropriate operation or other purposes deemed necessary.",
+          "points": [
+            "To provide information about our website or the services of our partner companies.",
+            "When outsourcing work to an external vendor with whom a confidentiality agreement has been concluded in advance, for the purpose of providing services to the customer.",
+            "To verify that you are the customer themselves or their authorized representative.",
+            "To report transaction details and other information to the customer.",
+            "To handle administrative tasks related to transactions with customers.",
+            "For market research, as well as for the research and development of services through data analysis and surveys.",
+            "In cases where we are entrusted by other businesses, etc., with the processing of all or part of personal information, in order to properly perform the entrusted tasks.",
+            "In addition, to ensure the smooth execution of transactions with our customers."
+          ]
+        }
+      },
+      {
+        "heading": "Management of personal information",
+        "description": {
+          "text": "We strive to keep our customer's personal information accurate and up-to-date. We manage our customer's personal information appropriately and carefully. We also implement strict security measures to prevent the loss, misuse, or alteration of personal information.",
+          "points": []
+        }
+      },
+      {
+        "heading": "Provision of personal information to third parties",
+        "description": {
+          "text": "We will not provide personal data to third parties without the consent of the individual, except in the following cases:",
+          "points": [
+            "When based on laws and regulations",
+            "We may provide personal information to partner companies to the extent necessary for carrying out our business operations. In such cases, we will require our business partners to handle the provided personal information appropriately and will ensure proper management.",
+            "When it is necessary to protect a person's life, body, or property, and it is difficult to obtain the customer's consent."
+          ]
+        }
+      },
+      {
+        "heading": "Procedures for requesting disclosure, etc.",
+        "description": {
+          "text": "Regarding personal data we hold about our customers, if a customer requests disclosure, correction, or cessation of use, we will verify their identity and strive to process the request appropriately and promptly.",
+          "points": []
+        }
+      },
+      {
+        "heading": "Inquiries to our company",
+        "description": {
+          "text": "For inquiries and consultations regarding our handling of personal information or your personal information,please contact us via the \"<contact>Inquiry Form</contact>\"or by phone at +977 9716067670, +81 80-8594-1846. When responding to inquiries regarding your personal information, we will verify your identity and respond as quickly as possible.",
+          "points": []
+        }
+      },
+      {
+        "heading": "About cookie policy",
+        "description": {
+          "text": "We use cookies to improve user experience, track browsing history, and combat spam and fraud.",
+          "points": []
+        }
+      }
+    ]
   }
 }
