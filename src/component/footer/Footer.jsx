@@ -155,7 +155,7 @@ export default function Footer() {
             <nav className="space-y-3">
               <Link
                 to="/privacy"
-                className="block text-gray-300 hover:text-white transition-colors"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400"
               >
                 {t("footer.legal.privacy")}
               </Link>

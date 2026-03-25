@@ -7,5 +7,4 @@ const Submit = () => {
     </div>
   )
 }
-
 export default Submit
