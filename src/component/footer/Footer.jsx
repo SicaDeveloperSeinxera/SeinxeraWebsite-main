@@ -129,21 +129,36 @@ export default function Footer() {
               {t("footer.sections.whatWeDo")}
             </h3>
             <nav className="space-y-3">
-              <p className="block font-normal text-gray-300 ">
+              <Link
+                to="/service"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
+              >
                 {t("footer.whatWeDo.application")}
-              </p>
-              <p className="block font-normal text-gray-300 ">
+              </Link>
+              <Link
+                to="/service"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
+              >
                 {t("footer.whatWeDo.data")}
-              </p>
-              <p className="block font-normal text-gray-300 ">
+              </Link>
+              <Link
+                to="/service"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
+              >
                 {t("footer.whatWeDo.digitalEngineering")}
-              </p>
-              <p className="block font-normal text-gray-300 ">
+              </Link>
+              <Link
+                to="/service"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
+              >
                 {t("footer.whatWeDo.automation")}
-              </p>
-              <p className="block font-normal text-gray-300 ">
+              </Link>
+              <Link
+                to="/service"
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
+              >
                 {t("footer.whatWeDo.quality")}
-              </p>
+              </Link>
             </nav>
           </div>
 
