@@ -85,7 +85,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://youtu.be/HDgblQA0lWw"
+                href="https://www.youtube.com/@Seinxera"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Seinxera on Youtube"
