@@ -1,12 +1,32 @@
-import "react";
+import React from "react";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import { HiArrowRight } from "react-icons/hi";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
+
 export default function Footer() {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  // Function to handle navigation with scroll target
+  const handleServiceNavigation = (sectionId) => {
+    // Check if we're already on the services page
+    if (window.location.pathname === '/service') {
+      // If on services page, scroll directly
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    } else {
+      // If on another page, navigate to services with scroll state
+      navigate('/service', { 
+        state: { scrollTo: sectionId } 
+      });
+    }
+  };
+
   return (
     <footer className="bg-gray-800 py-8 text-white">
       <div className="container mx-auto px-6 py-6">
@@ -84,39 +104,39 @@ export default function Footer() {
             <nav className="space-y-3">
               <Link
                 to="/"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400"
               >
                 {t("nav.home")}
               </Link>
 
               <Link
                 to="/about"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400"
               >
                 {t("nav.about")}
               </Link>
               <Link
                 to="/service"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400"
               >
                 {t("nav.services")}
               </Link>
               <Link
                 to="/career"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400"
               >
                 {t("nav.careers")}
               </Link>
               <Link
                 to="/team"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400"
               >
                 {t("nav.teams")}
               </Link>
 
               <Link
                 to="/contact"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 "
+                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400"
               >
                 {t("nav.contact")}
               </Link>
@@ -129,36 +149,50 @@ export default function Footer() {
               {t("footer.sections.whatWeDo")}
             </h3>
             <nav className="space-y-3">
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
-              >
-                {t("footer.whatWeDo.application")}
-              </Link>
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
-              >
-                {t("footer.whatWeDo.data")}
-              </Link>
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
-              >
-                {t("footer.whatWeDo.digitalEngineering")}
-              </Link>
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
-              >
-                {t("footer.whatWeDo.automation")}
-              </Link>
-              <Link
-                to="/service"
-                className="block text-gray-300 hover:text-white transition-colors focus:text-orange-400 })"
-              >
-                {t("footer.whatWeDo.quality")}
-              </Link>
+              <div id="application">
+                <button
+                  onClick={() => handleServiceNavigation('application')}
+                  className="block w-full text-left text-gray-300 hover:text-white transition-colors focus:text-orange-400"
+                >
+                  {t("footer.whatWeDo.application")}
+                </button>
+              </div>
+
+              <div className="data">
+                <button
+                  onClick={() => handleServiceNavigation('data')}
+                  className="block w-full text-left text-gray-300 hover:text-white transition-colors focus:text-orange-400"
+                >
+                  {t("footer.whatWeDo.data")}
+                </button>
+              </div>
+
+              <div className="digitalEngineering">
+                <button
+                  onClick={() => handleServiceNavigation('digital-engineering')}
+                  className="block w-full text-left text-gray-300 hover:text-white transition-colors focus:text-orange-400"
+                >
+                  {t("footer.whatWeDo.digitalEngineering")}
+                </button>
+              </div>
+
+              <div className="automation">
+                <button
+                  onClick={() => handleServiceNavigation('automation')}
+                  className="block w-full text-left text-gray-300 hover:text-white transition-colors focus:text-orange-400"
+                >
+                  {t("footer.whatWeDo.automation")}
+                </button>
+              </div>
+
+              <div className="quality">
+                <button
+                  onClick={() => handleServiceNavigation('quality')}
+                  className="block w-full text-left text-gray-300 hover:text-white transition-colors focus:text-orange-400"
+                >
+                  {t("footer.whatWeDo.quality")}
+                </button>
+              </div>
             </nav>
           </div>
 
