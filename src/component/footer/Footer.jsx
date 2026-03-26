@@ -64,12 +64,7 @@ export default function Footer() {
               >
                 <FaLinkedin className="w-5 h-5" />
               </a>
-              <Link
-                to="#"
-                className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-slate-700 transition-colors"
-              >
-                <FaXTwitter className="w-5 h-5" />
-              </Link>
+            
               <a
                 href="https://www.instagram.com/seinxera/profilecard/?igsh=MXNrc2ZuM3RqMnVnMA=="
                 target="_blank"
