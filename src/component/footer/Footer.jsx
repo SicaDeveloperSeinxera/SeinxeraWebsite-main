@@ -1,5 +1,6 @@
 import React from "react";
 import { FaXTwitter } from "react-icons/fa6";
+import PageTransition from "../PageTransition";
 import { FaLinkedin, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa6";
 import { HiArrowRight } from "react-icons/hi";
@@ -31,6 +32,7 @@ export default function Footer() {
   };
 
   return (
+<PageTransition>
     <footer className="bg-gray-800 py-8 text-white">
       <div className="container mx-auto px-6 py-6">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 lg:gap-16 px-8 ">
@@ -256,5 +258,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </PageTransition>
   );
 }
