@@ -345,13 +345,13 @@
       "legal": "法的情報"
     },
     "whatWeDo": {
-      "application": "アプリケーション開発",
-      "cloud": "クラウド＆インフラストラクチャ",
-      "cybersecurity": "サイバーセキュリティ",
-      "data": "データ分析・可視化",
-      "digitalEngineering": "デジタルエンジニアリング",
-      "automation": "業務自動化",
-      "quality": "品質保証（QA）"
+      "webDevelopment": "ウェブ開発",
+      "AI/ML": "AI/ML ソリューション",
+      "desktopDevelopment": "デスクトップアプリケーション開発",
+      "mobileApplication": "モバイルアプリケーション開発",
+      "cad": "CAD 開発",
+      "data": "データの注釈",
+      "ocr": "OCR とデータ入力"
     },
     "legal": {
       "privacy": "プライバシーポリシー",

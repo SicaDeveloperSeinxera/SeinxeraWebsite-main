@@ -341,13 +341,13 @@
       "legal": "LEGAL"
     },
     "whatWeDo": {
-      "application": "Application Development",
-      "cloud": "Cloud & Infrastructure",
-      "cybersecurity": "Cybersecurity",
-      "data": "Data Analysis & Visualization",
-      "digitalEngineering": "Digital Engineering",
-      "automation": "Business Automation",
-      "quality": "Quality Assurance (QA)"
+      "webDevelopment": "Web Development",
+      "AI/ML": "AI/ML Solutions",
+      "desktopDevelopment": "Desktop Application Development",
+      "mobileApplication": "Mobile Application Development",
+      "cad": "CAD Development",
+      "data": "Data Annotation",
+      "ocr": "OCR and Data Entry"
     },
     "legal": {
       "privacy": "Privacy Policy",
