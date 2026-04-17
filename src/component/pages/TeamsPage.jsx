@@ -12,29 +12,75 @@ import sujal from "../../assets/sujal.jpg";
 import prabigya from "../../assets/prabigya.jpg";
 import nischal from "../../assets/nischal.png";
 import saroj from "../../assets/saroj.jpg";
+import sisam from "../../assets/SisamUpadhyay.jpg";
 
 const TeamsPage = () => {
-  const {t} = useTranslation();
-  
+  const { t } = useTranslation();
+
   const teamMembers = [
-    { id: 1, name: "Saroj Sharma", image: saroj, roleKey: "jmanager", testimonialKey: "t1" },
-    { id: 2, name: "Rusha Manandhar", image: rusha, roleKey: "jdev", testimonialKey: "t2" },
-    { id: 3, name: "Sujal Subedi", image: sujal, roleKey: "ai", testimonialKey: "t3" },
-    { id: 4, name: "Nischal Shrestha", image: nischal, roleKey: "wdev", testimonialKey: "t4" },
-    { id: 5, name: "Prabigya Poudel", image: prabigya, roleKey: "UI", testimonialKey: "t5" },
-    { id: 6, name: "Manik Shrestha", image: manik, roleKey: "UI", testimonialKey: "t6" },
+    {
+      id: 1,
+      name: "Saroj Sharma",
+      image: saroj,
+      roleKey: "jmanager",
+      testimonialKey: "t1"
+    },
+    {
+      id: 2,
+      name: "Rusha Manandhar",
+      image: rusha,
+      roleKey: "jdev",
+      testimonialKey: "t2"
+    },
+    {
+      id: 3,
+      name: "Sujal Subedi",
+      image: sujal,
+      roleKey: "ai",
+      testimonialKey: "t3"
+    },
+    {
+      id: 4,
+      name: "Nischal Shrestha",
+      image: nischal,
+      roleKey: "wdev",
+      testimonialKey: "t4"
+    },
+    {
+      id: 5,
+      name: "Prabigya Poudel",
+      image: prabigya,
+      roleKey: "UI",
+      testimonialKey: "t5"
+    },
+    {
+      id: 6,
+      name: "Manik Shrestha",
+      image: manik,
+      roleKey: "UI",
+      testimonialKey: "t6"
+    },
+    {
+      id: 7,
+      name: "Sisam Upadhyay",
+      image: sisam,
+      roleKey: "wdev",
+      testimonialKey: "t7"
+    }
   ];
 
   return (
     <PageTransition>
       <div className="min-h-auto bg-white py-12 px-4">
         <div className="max-w-full text-center">
-        <div className="w-11/12 mx-auto text-center">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            {t("teams.title")}
-          </h1>
-          <p className="text-xl px-4 text-center text-gray-600 mb-12">{t("teams.subtitle")}</p>
-        </div>
+          <div className="w-11/12 mx-auto text-center">
+            <h1 className="text-4xl font-bold text-gray-900 mb-4">
+              {t("teams.title")}
+            </h1>
+            <p className="text-xl px-4 text-center text-gray-600 mb-12">
+              {t("teams.subtitle")}
+            </p>
+          </div>
           <Swiper
             modules={[Pagination, Autoplay]}
             spaceBetween={30}
@@ -45,20 +91,21 @@ const TeamsPage = () => {
               640: { slidesPerView: 1 },
               768: { slidesPerView: 2 },
               1024: { slidesPerView: 2 },
-              1440: { slidesPerView: 3 },
+              1440: { slidesPerView: 3 }
             }}
             className="w-11/12 lg:w-11/12 mx-auto md:w-11/12 sm:w-11/12 bg-white testimonial-swiper"
           >
-            {teamMembers.map((member) => (
+            {teamMembers.map(member =>
               <SwiperSlide key={member.id} className="py-10">
                 <div className="relative bg-gray-100 border mt-4 border-gray-200 rounded-2xl shadow-sm p-8 h-100 flex flex-col items-center">
-                  
                   {/* Floating Avatar */}
-                  <div className="absolute -top-12 left-1/2 transform -translate-x-1/2">
+                  <div className="absolute -top-15 left-1/2 transform -translate-x-1/2">
                     <img
+                      width={1000}
+                      height={1000}
                       src={member.image}
                       alt={member.name}
-                      className="w-30 h-30 rounded-full object-cover border-4 border-white shadow-lg"
+                      className="w-35 h-35 rounded-full object-cover border-4 border-white shadow-lg"
                     />
                   </div>
 
@@ -80,7 +127,7 @@ const TeamsPage = () => {
                   </p>
                 </div>
               </SwiperSlide>
-            ))}
+            )}
           </Swiper>
         </div>
       </div>
