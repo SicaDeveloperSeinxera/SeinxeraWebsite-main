@@ -64,7 +64,7 @@ const TeamsPage = () => {
       id: 7,
       name: "Sisam Upadhyay",
       image: sisam,
-      roleKey: "wdev",
+      roleKey: "jmanager",
       testimonialKey: "t7"
     }
   ];
