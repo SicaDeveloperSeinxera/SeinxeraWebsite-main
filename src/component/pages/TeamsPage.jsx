@@ -8,11 +8,12 @@ import "swiper/css/pagination";
 
 import rusha from "../../assets/rusha.jpg";
 import manik from "../../assets/manik.jpeg";
-import sujal from "../../assets/sujal.jpg";
+import kushal from "../../assets/kushal.jpg";
 import prabigya from "../../assets/prabigya.jpg";
 import nischal from "../../assets/nischal.png";
 import saroj from "../../assets/saroj.jpg";
 import sisam from "../../assets/SisamUpadhyay.jpg";
+import sadikshya from "../../assets/sadikshya.jpg";
 
 const TeamsPage = () => {
   const { t } = useTranslation();
@@ -27,15 +28,15 @@ const TeamsPage = () => {
     },
     {
       id: 2,
-      name: "Rusha Manandhar",
-      image: rusha,
-      roleKey: "jdev",
+      name: "Sisam Upadhyay",
+      image: sisam,
+      roleKey: "jmanager",
       testimonialKey: "t2"
     },
     {
       id: 3,
-      name: "Sujal Subedi",
-      image: sujal,
+      name: "Kushal Pandey",
+      image: kushal,
       roleKey: "ai",
       testimonialKey: "t3"
     },
@@ -62,8 +63,8 @@ const TeamsPage = () => {
     },
     {
       id: 7,
-      name: "Sisam Upadhyay",
-      image: sisam,
+      name: "Sadikshya Dhakal",
+      image: sadikshya,
       roleKey: "jmanager",
       testimonialKey: "t7"
     }
