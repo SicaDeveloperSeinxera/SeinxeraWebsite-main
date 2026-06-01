@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 
 import rusha from "../../assets/rusha.jpg";
 import manik from "../../assets/manik.jpeg";
-import kushal from "../../assets/kushal.jpg";
+import kushal from "../../assets/kushal.JPG";
 import prabigya from "../../assets/prabigya.jpg";
 import nischal from "../../assets/nischal.png";
 import saroj from "../../assets/saroj.jpg";
