@@ -14,6 +14,8 @@ import nischal from "../../assets/nischal.png";
 import saroj from "../../assets/saroj.jpg";
 import sisam from "../../assets/SisamUpadhyay.jpg";
 import sadikshya from "../../assets/sadikshya.jpg";
+import dipesh from "../../assets/dipesh.jpg";
+import diwana from "../../assets/diwana.jpg";
 
 const TeamsPage = () => {
   const { t } = useTranslation();
@@ -67,7 +69,21 @@ const TeamsPage = () => {
       image: sadikshya,
       roleKey: "jmanager",
       testimonialKey: "t7"
-    }
+    },
+    {
+      id: 8,
+      name: "Dipesh Shrestha",
+      image: dipesh,
+      roleKey: "UI",
+      testimonialKey: "t8"
+    },
+    {
+      id: 9,
+      name: "Diwana Tamang",
+      image: diwana,
+      roleKey: "annoator",
+      testimonialKey: "t9"
+    },
   ];
 
   return (
