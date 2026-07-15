@@ -81,7 +81,7 @@ const TeamsPage = () => {
       id: 9,
       name: "Diwana Tamang",
       image: diwana,
-      roleKey: "annoator",
+      roleKey: "annotator",
       testimonialKey: "t9"
     },
   ];
