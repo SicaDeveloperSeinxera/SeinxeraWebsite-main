@@ -426,5 +426,153 @@
         }
       }
     ]
+  },
+  "ProjectHeading":{
+    "involved":"Involved Projects",
+    "back":"Back to Teams",
+    "overview":"Overview",
+    "projectDescription":"Project Description"
+  },
+  "Projects": {
+    "Trytec": {
+      "id": "1",
+      "name": "Trytec",
+      "team involved": "Trytec",
+      "description": "Trytec Co., Ltd. is a specialized manufacturer of custom power supplies and inverters, based in Nakama City, Fukuoka Prefecture, Japan. With over 35 years of expertise in power electronics design and manufacturing, the company builds made-to-order power devices for a wide range of applications, including motors, lamps, LEDs, heaters, batteries, and EDLCs, engineering optimal control solutions for each customer's specifications.\n\nTrytec supports clients through every stage of product development, from initial planning and design to engineering, production, and inspection. Drawing on decades of accumulated power electronics know-how, the company also develops original design manufacturing (ODM) products tailored to specific industrial needs.\n\nProduction capability ranges from single prototypes to lots of several thousand units, handled through Trytec's own factory alongside a network of partner manufacturers. This allows the company to produce everything from small chip boards to large control panels. Trytec's facilities include automatic soldering equipment, wire processing machines, cable strippers, selective jet soldering systems, and in-circuit testers, all maintained to high safety and quality standards. Since 2017, Trytec has operated as a group company of Seiko Electric Manufacturing Co., Ltd.\n\nAs part of this project, an admin dashboard was developed to help Trytec manage their online parts catalog and customer interactions. Key features include:\n\n• Manage Parts – Add, update, and organize stock parts with model numbers, specifications, manufacturers, and availability, including bulk upload via Excel and data export.\n\n• Manage Products – Create and maintain product listings across categories such as AC/DC Converters, DC/DC Converters, Inverters, Controllers, and EV Fast Chargers.\n\n• Quotation Management – Track incoming quotation requests with status tracking (Pending, Responded, Ordered) and detailed part-level pricing breakdowns.\n\n• Order Management – Monitor order status (Pending, Confirmed, Rejected) with delivery address and pricing details.\n\n• Customer Management – Maintain a searchable customer database with contact details, company information, and order history.\n\n• Account Settings – Secure login, password management, and admin access controls.\n\n• Multi-language Support – Full Japanese and English localization across the platform.\n\nThe dashboard streamlines part inventory management and customer relationship workflows, giving Trytec's team an efficient way to handle day-to-day operations.",
+      "image": "/trytec/logo.png"
+    },
+    "EMS": {
+      "id": "2",
+      "name": "EMS",
+      "team involved": "EMS",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "AWS CRUD": {
+      "id": "3",
+      "name": "AWS CRUD",
+      "team involved": "AWS CRUD",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Shift App": {
+      "id": "4",
+      "name": "Shift App",
+      "team involved": "Shift App",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Seiko-EC": {
+      "id": "5",
+      "name": "Seiko-EC",
+      "team involved": "Seiko-EC",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Seinxera Website": {
+      "id": "6",
+      "name": "Seinxera Website",
+      "team involved": "Seinxera Website",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Shift-AI": {
+      "id": "7",
+      "name": "Shift-AI",
+      "team involved": "Shift-AI",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "QuickFind": {
+      "id": "8",
+      "name": "QuickFind",
+      "team involved": "QuickFind",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Calendar": {
+      "id": "9",
+      "name": "Calendar",
+      "team involved": "Calendar",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "La Entrega": {
+      "id": "10",
+      "name": "La Entrega",
+      "team involved": "La Entrega",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "SlackBot": {
+      "id": "11",
+      "name": "SlackBot",
+      "team involved": "SlackBot",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "QuickFind AI Integration": {
+      "id": "12",
+      "name": "QuickFind AI Integration",
+      "team involved": "QuickFind AI Integration",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "LiteLLM Deployment": {
+      "id": "13",
+      "name": "LiteLLM Deployment",
+      "team involved": "LiteLLM Deployment",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Steel annotation": {
+      "id": "14",
+      "name": "Steel Annotation",
+      "team involved": "Steel annotation",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "newspaper annotation": {
+      "id": "15",
+      "name": "Newspaper Annotation",
+      "team involved": "newspaper annotation",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Road annotation": {
+      "id": "16",
+      "name": "Road Annotation",
+      "team involved": "Road annotation",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "earthquake annotation": {
+      "id": "17",
+      "name": "Earthquake Annotation",
+      "team involved": "earthquake annotation",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Robo AI Voice Chat": {
+      "id": "18",
+      "name": "Robo AI Voice Chat",
+      "team involved": "Robo AI Voice Chat",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Robo Reception AI Assistant": {
+      "id": "19",
+      "name": "Robo Reception AI Assistant",
+      "team involved": "Robo Reception AI Assistant",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    },
+    "Building Navigation": {
+      "id": "20",
+      "name": "Building Navigation",
+      "team involved": "Building Navigation",
+      "description": "Trytec is a technology-driven company focused on delivering innovative digital solutions that help businesses improve efficiency, productivity, and user experience. By combining modern development practices with a customer-first approach, Trytec creates reliable and scalable applications tailored to meet diverse business needs.\n\nThe team works closely with clients throughout every stage of the development process, from understanding requirements and designing intuitive user interfaces to implementing robust backend systems and ensuring seamless deployment. This collaborative approach helps deliver high-quality products that align with business goals.\n\nCommitted to continuous improvement and innovation, Trytec embraces the latest technologies and industry best practices to build secure, maintainable, and future-ready solutions. The company aims to establish long-term partnerships by providing dependable technical expertise and exceptional support.",
+      "image": "/trytec/logo.png"
+    }
   }
 }
