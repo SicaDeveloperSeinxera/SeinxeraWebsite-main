@@ -124,9 +124,8 @@ const TeamsPage = () => {
             className="w-11/12 lg:w-11/12 mx-auto md:w-11/12 sm:w-11/12 bg-white testimonial-swiper"
           >
             {teamMembers.map(member =>
-              <SwiperSlide key={member.id} className="py-10 h-auto">
-                <div className="relative bg-gray-100 border mt-4 border-gray-200 rounded-2xl shadow-sm p-5 sm:p-8 flex flex-col items-center
-                                min-h-105 sm:min-h-115 md:min-h-125 lg:min-h-130">
+              <SwiperSlide key={member.id} className="py-10">
+                <div className="relative mt-4 flex h-full min-h-135 flex-col rounded-2xl border border-gray-200 bg-gray-100 p-5 shadow-sm transition-shadow duration-300 hover:shadow-lg sm:min-h-145 sm:p-6 lg:min-h-155 xl:min-h-162.5">
                   {/* Floating Avatar */}
                   <div className="absolute -top-12 sm:-top-15 left-1/2 transform -translate-x-1/2">
                     <img
@@ -134,7 +133,7 @@ const TeamsPage = () => {
                       height={1000}
                       src={member.image}
                       alt={member.name}
-                      className="w-24 h-24 sm:w-28 sm:h-28 md:w-35 md:h-35 rounded-full object-cover border-4 border-white shadow-lg"
+                      className="h-24 w-24 rounded-full border-4 border-white object-cover shadow-lg sm:h-28 sm:w-28 md:h-32 md:w-32 lg:h-36 lg:w-36"
                     />
                   </div>
 
@@ -151,12 +150,14 @@ const TeamsPage = () => {
                   <hr className="w-full border-gray-300 my-4 sm:mb-6 shrink-0" />
 
                   {/* Testimonial Text */}
-                  <p className="text-sm sm:text-base text-gray-600 leading-relaxed text-justify hyphens-auto">
+                  <p className="flex-1 text-sm leading-7 text-gray-600 text-justify sm:text-base">
                     {t(`teams.testimonials.${member.testimonialKey}`)}
                   </p>
 
-                  {/* Involved Projects */}
-                  <ProjectsList projects={member.projects} t={t} />
+                  {/* Involved Projects - anchored to bottom so it lines up across all cards */}
+                  <div className="mt-6 w-full border-t border-gray-200 pt-5">
+                    <ProjectsList projects={member.projects} t={t} />
+                  </div>
                 </div>
               </SwiperSlide>
             )}
