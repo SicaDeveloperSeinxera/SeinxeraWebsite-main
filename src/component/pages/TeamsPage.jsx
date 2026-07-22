@@ -57,7 +57,7 @@ export const teamMembers = [
     image: prabigya,
     roleKey: "UI",
     testimonialKey: "t5",
-    projects: ["EMS","QuickFind"]
+    projects: ["EMS","Seiko-EC","QuickFind"]
   },
   {
     id: 6,
