@@ -1,25 +1,10 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
-import { motion, Variants } from "framer-motion";
+import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-export interface Project {
-  id: string;
-  name: string;
-  description: string;
-  image?: string;
-  "team involved"?: string;
-}
-
-type Props = {
-  project: Project;
-  variants?: Variants;
-  state?: unknown;
-};
-
-const ProjectCard = ({ project, variants, state }: Props) => {
-    const { t, i18n } = useTranslation();
+const ProjectCard = ({ project, variants, state }) => {
+  const { t, i18n } = useTranslation();
   const excerpt =
     project.description?.split("\n")[0]?.slice(0, 110) ?? "";
 

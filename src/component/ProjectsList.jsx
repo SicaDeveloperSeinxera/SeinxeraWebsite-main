@@ -1,21 +1,12 @@
 import { useRef, useState, useCallback, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion, useReducedMotion } from "framer-motion";
-import type { TFunction } from "i18next";
 
 const VISIBLE_ROWS = 3;
 const ROW_HEIGHT = 46;
 const SCROLL_EPSILON = 4;
 
-interface ProjectRowProps {
-  projectKey: string;
-  t: TFunction;
-  index: number;
-  reduceMotion: boolean;
-  memberId: number;
-}
-
-const ProjectRow = ({ projectKey, t, index, reduceMotion, memberId }: ProjectRowProps) => (
+const ProjectRow = ({ projectKey, t, index, reduceMotion, memberId }) => (
   <motion.li
     initial={reduceMotion ? undefined : { opacity: 0, y: 6 }}
     animate={reduceMotion ? undefined : { opacity: 1, y: 0 }}
@@ -48,15 +39,9 @@ const ProjectRow = ({ projectKey, t, index, reduceMotion, memberId }: ProjectRow
   </motion.li>
 );
 
-interface ProjectsListProps {
-  projects: string[];
-  t: TFunction;
-  memberId: number;
-}
-
-const ProjectsList = ({ projects, t, memberId }: ProjectsListProps) => {
+const ProjectsList = ({ projects, t, memberId }) => {
   const prefersReducedMotion = useReducedMotion();
-  const listRef = useRef<HTMLUListElement>(null);
+  const listRef = useRef(null);
 
   const [atTop, setAtTop] = useState(true);
   const [atBottom, setAtBottom] = useState(false);
@@ -105,7 +90,7 @@ const ProjectsList = ({ projects, t, memberId }: ProjectsListProps) => {
           className="projects-scrollbar flex flex-col divide-y divide-slate-100 overflow-y-auto"
           style={isScrollable ? { maxHeight: ROW_HEIGHT * VISIBLE_ROWS } : undefined}
         >
-          {projects.map((projectKey: string, i: number) => (
+          {projects.map((projectKey, i) => (
             <ProjectRow
               key={projectKey}
               projectKey={projectKey}

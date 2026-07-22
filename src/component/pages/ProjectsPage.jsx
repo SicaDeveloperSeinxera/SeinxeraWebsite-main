@@ -1,19 +1,11 @@
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { motion, useReducedMotion, Variants } from "framer-motion";
-import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import { motion, useReducedMotion } from "framer-motion";
+import { FaArrowLeft } from "react-icons/fa";
 import PageTransition from "../PageTransition";
 import ProjectCard from "../ProjectCard";
 
-interface Project {
-  id: string;
-  name: string;
-  description: string;
-  image?: string;
-  "team involved"?: string;
-}
-
-const containerVariants: Variants = {
+const containerVariants = {
   hidden: {},
   show: {
     transition: {
@@ -23,7 +15,7 @@ const containerVariants: Variants = {
   },
 };
 
-const cardVariants: Variants = {
+const cardVariants = {
   hidden: { opacity: 0, y: 28 },
   show: {
     opacity: 1,
@@ -36,10 +28,7 @@ const ProjectsPage = () => {
   const { t, i18n } = useTranslation();
   const prefersReducedMotion = useReducedMotion();
 
-  const projectsMap = t("Projects", { returnObjects: true }) as Record<
-    string,
-    Project
-  >;
+  const projectsMap = t("Projects", { returnObjects: true });
   const projects = Object.values(projectsMap || {});
 
   return (

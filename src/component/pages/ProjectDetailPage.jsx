@@ -1,21 +1,12 @@
-import React from "react";
-import { Link, useNavigate, useParams, useLocation  } from "react-router-dom";
+import { Link, useNavigate, useParams, useLocation } from "react-router-dom";
 import { useTranslation } from "react-i18next";
-import { motion, useReducedMotion, Variants } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import { FaArrowLeft, FaArrowRight, FaFolderOpen } from "react-icons/fa";
 import PageTransition from "../PageTransition";
 import { teamMembers } from "./TeamsPage";
 import ProjectCard from "../ProjectCard";
 
-interface Project {
-  id: string;
-  name: string;
-  description: string;
-  image?: string;
-  "team involved"?: string;
-}
-
-const containerVariants: Variants = {
+const containerVariants = {
   hidden: {},
   show: {
     transition: {
@@ -25,7 +16,7 @@ const containerVariants: Variants = {
   },
 };
 
-const cardVariants: Variants = {
+const cardVariants = {
   hidden: { opacity: 0, y: 20 },
   show: {
     opacity: 1,
@@ -40,12 +31,9 @@ const ProjectDetailPage = () => {
   const navigate = useNavigate();
   const prefersReducedMotion = useReducedMotion();
   const location = useLocation();
-  const memberId = location.state?.memberId;  
+  const memberId = location.state?.memberId;
 
-  const projectsMap = t("Projects", { returnObjects: true }) as Record<
-    string,
-    Project
-  >;
+  const projectsMap = t("Projects", { returnObjects: true });
 
   const projectEntries = Object.entries(projectsMap || {});
   const currentEntry = projectEntries.find(
@@ -93,18 +81,18 @@ const ProjectDetailPage = () => {
     (member) => member.id === memberId
   );
 
-  let visibleProjects: Project[] = [];
+  let visibleProjects = [];
 
   if (selectedMember) {
-  visibleProjects = selectedMember.projects
+    visibleProjects = selectedMember.projects
       .map((k) => projectsMap[k])
-      .filter((p): p is Project => Boolean(p))
+      .filter((p) => Boolean(p))
       .filter((p) => p.id.toLowerCase() !== id?.toLowerCase());
   } else {
-  visibleProjects = Object.values(projectsMap)
+    visibleProjects = Object.values(projectsMap)
       .filter((p) => p.id.toLowerCase() !== id?.toLowerCase())
       .sort(() => Math.random() - 0.5)
-      .slice(0, 5); 
+      .slice(0, 5);
   }
 
   return (
