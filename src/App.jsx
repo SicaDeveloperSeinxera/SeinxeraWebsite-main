@@ -10,6 +10,7 @@ import PrivacyPolicyPage from "./component/pages/PrivacyPolicyPage";
 import NavigationBar from "./component/navbar/NavigationBar";
 import {useTranslation}  from "react-i18next";
 import ProjectsPage from "./component/pages/ProjectsPage";
+import ProjectDetailPage from "./component/pages/ProjectDetailPage";
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
         <Route path="/career" element={<CareersPage />} />
         <Route path="/team" element={<TeamsPage />} />
         <Route path="/privacy" element={<PrivacyPolicyPage />} />
-        <Route path="/projects/:id" element={<ProjectsPage />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+        <Route path="/projects/:id" element={<ProjectDetailPage />} />
       </Routes>
 
       <Footer />

@@ -18,83 +18,83 @@ import sadikshya from "../../assets/sadikshya.jpg";
 import dipesh from "../../assets/dipesh.jpg";
 import diwana from "../../assets/diwana.jpg";
 
+export const teamMembers = [
+  {
+    id: 1,
+    name: "Saroj Sharma",
+    image: saroj,
+    roleKey: "jmanager",
+    testimonialKey: "t1",
+    projects: ["Calendar", "Trytec", "QuickFind", "La Entrega", "EMS", "Shift App", "Seiko-EC", "Seinxera Website", "Shift-AI"]
+  },
+  {
+    id: 2,
+    name: "Sisam Upadhyay",
+    image: sisam,
+    roleKey: "jmanager",
+    testimonialKey: "t2",
+    projects: ["SlackBot", "QuickFind AI Integration", "EMS", "Seiko-EC", "LiteLLM Deployment","Seinxera Website",]
+  },
+  {
+    id: 3,
+    name: "Kushal Pandey",
+    image: kushal,
+    roleKey: "ai",
+    testimonialKey: "t3",
+    projects: ["Robo AI Voice Chat", "Robo Reception AI Assistant", "Building Navigation", "LiteLLM Deployment", "Shift-AI"]
+  },
+  {
+    id: 4,
+    name: "Nischal Shrestha",
+    image: nischal,
+    roleKey: "wdev",
+    testimonialKey: "t4",
+    projects: ["Trytec"]
+  },
+  {
+    id: 5,
+    name: "Prabigya Poudel",
+    image: prabigya,
+    roleKey: "UI",
+    testimonialKey: "t5",
+    projects: ["EMS","QuickFind"]
+  },
+  {
+    id: 6,
+    name: "Manik Shrestha",
+    image: manik,
+    roleKey: "UI",
+    testimonialKey: "t6",
+    projects: ["EMS","Seiko-EC"]
+  },
+  {
+    id: 7,
+    name: "Sadikshya Dhakal",
+    image: sadikshya,
+    roleKey: "jmanager",
+    testimonialKey: "t7",
+    projects: ["EMS"]
+  },
+  {
+    id: 8,
+    name: "Dipesh Shrestha",
+    image: dipesh,
+    roleKey: "UI",
+    testimonialKey: "t8",
+    projects: ["Seiko-EC", "Trytec", "Seinxera Website"]
+  },
+  {
+    id: 9,
+    name: "Diwana Tamang",
+    image: diwana,
+    roleKey: "annotator",
+    testimonialKey: "t9",
+    projects: ["Polygon annotation", "Bounding Box annotation", "video editing"]
+  },
+];
+
 const TeamsPage = () => {
   const { t } = useTranslation();
-
-  const teamMembers = [
-    {
-      id: 1,
-      name: "Saroj Sharma",
-      image: saroj,
-      roleKey: "jmanager",
-      testimonialKey: "t1",
-      projects: ["Calendar", "Trytec", "QuickFind", "La Entrega", "EMS", "AWS CRUD", "Shift App", "Seiko-EC", "Seinxera Website", "Shift-AI"]
-    },
-    {
-      id: 2,
-      name: "Sisam Upadhyay",
-      image: sisam,
-      roleKey: "jmanager",
-      testimonialKey: "t2",
-      projects: ["SlackBot", "QuickFind AI Integration", "EMS", "Seiko-EC", "LiteLLM Deployment"]
-    },
-    {
-      id: 3,
-      name: "Kushal Pandey",
-      image: kushal,
-      roleKey: "ai",
-      testimonialKey: "t3",
-      projects: ["Robo AI Voice Chat", "Robo Reception AI Assistant", "Building Navigation", "LiteLLM Deployment", "Shift-AI"]
-    },
-    {
-      id: 4,
-      name: "Nischal Shrestha",
-      image: nischal,
-      roleKey: "wdev",
-      testimonialKey: "t4",
-      projects: ["Trytec"]
-    },
-    {
-      id: 5,
-      name: "Prabigya Poudel",
-      image: prabigya,
-      roleKey: "UI",
-      testimonialKey: "t5",
-      projects: ["EMS"]
-    },
-    {
-      id: 6,
-      name: "Manik Shrestha",
-      image: manik,
-      roleKey: "UI",
-      testimonialKey: "t6",
-      projects: ["EMS", "Seiko-EC"]
-    },
-    {
-      id: 7,
-      name: "Sadikshya Dhakal",
-      image: sadikshya,
-      roleKey: "jmanager",
-      testimonialKey: "t7",
-      projects: ["EMS"]
-    },
-    {
-      id: 8,
-      name: "Dipesh Shrestha",
-      image: dipesh,
-      roleKey: "UI",
-      testimonialKey: "t8",
-      projects: ["Trytec", "Seiko-EC", "Seinxera Website"]
-    },
-    {
-      id: 9,
-      name: "Diwana Tamang",
-      image: diwana,
-      roleKey: "annotator",
-      testimonialKey: "t9",
-      projects: ["Steel annotation", "newspaper annotation", "Road annotation", "earthquake annotation"]
-    },
-  ];
 
   return (
     <PageTransition>
@@ -113,7 +113,11 @@ const TeamsPage = () => {
             spaceBetween={24}
             slidesPerView={1}
             pagination={{ clickable: true }}
-            autoplay={{ delay: 5000 }}
+            autoplay={{
+              delay: 5000,
+              pauseOnMouseEnter: true,
+              disableOnInteraction: false,
+            }}
             breakpoints={{
               0: { slidesPerView: 1, spaceBetween: 20 },
               640: { slidesPerView: 1, spaceBetween: 24 },
@@ -156,7 +160,7 @@ const TeamsPage = () => {
                   </p>
 
                   {/* Involved Projects */}
-                  <ProjectsList projects={member.projects} t={t} />
+                  <ProjectsList projects={member.projects} t={t} memberId={member.id} />
                 </div>
               </SwiperSlide>
             )}
@@ -165,14 +169,14 @@ const TeamsPage = () => {
       </div>
 
       {/* Custom Styles for Swiper dots */}
-      <style jsx global>
+      <style>
         {`
           .swiper-pagination-bullet {
-            background: #a3e635 !important;
+            background: #60a5fa  !important;
             opacity: 0.5;
           }
           .swiper-pagination-bullet-active {
-            background: #4ade80 !important;
+            background: #2563eb  !important;
             opacity: 1;
           }
           .testimonial-swiper {
